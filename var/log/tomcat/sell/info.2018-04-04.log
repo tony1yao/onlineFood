@@ -1,0 +1,1352 @@
+2018-04-04 11:55:12,402 - Starting ProductInfoRepositoryTest on Asus with PID 8056 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 11:55:12,414 - No active profile set, falling back to default profiles: default
+2018-04-04 11:55:12,570 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4e07b95f: startup date [Wed Apr 04 11:55:12 AEST 2018]; root of context hierarchy
+2018-04-04 11:55:15,299 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b16735ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 11:55:15,728 - HikariPool-1 - Starting...
+2018-04-04 11:55:16,027 - HikariPool-1 - Start completed.
+2018-04-04 11:55:16,200 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 11:55:16,220 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 11:55:16,326 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 11:55:16,328 - HHH000206: hibernate.properties not found
+2018-04-04 11:55:16,412 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 11:55:16,600 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 11:55:17,684 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 11:55:19,603 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4e07b95f: startup date [Wed Apr 04 11:55:12 AEST 2018]; root of context hierarchy
+2018-04-04 11:55:19,688 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 11:55:19,829 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 11:55:19,831 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 11:55:19,902 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 11:55:19,903 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 11:55:19,971 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 11:55:20,346 - Started ProductInfoRepositoryTest in 9.288 seconds (JVM running for 11.289)
+2018-04-04 11:55:20,672 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4e07b95f: startup date [Wed Apr 04 11:55:12 AEST 2018]; root of context hierarchy
+2018-04-04 11:55:20,677 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 11:55:20,678 - HikariPool-1 - Shutdown initiated...
+2018-04-04 11:55:20,693 - HikariPool-1 - Shutdown completed.
+2018-04-04 11:58:58,888 - Starting ProductInfoRepositoryTest on Asus with PID 10088 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 11:58:58,890 - No active profile set, falling back to default profiles: default
+2018-04-04 11:58:58,958 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Wed Apr 04 11:58:58 AEST 2018]; root of context hierarchy
+2018-04-04 11:59:00,908 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54fd1f04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 11:59:01,221 - HikariPool-1 - Starting...
+2018-04-04 11:59:01,577 - HikariPool-1 - Start completed.
+2018-04-04 11:59:01,636 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 11:59:01,656 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 11:59:01,779 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 11:59:01,780 - HHH000206: hibernate.properties not found
+2018-04-04 11:59:01,839 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 11:59:02,028 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 11:59:03,054 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 11:59:05,180 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Wed Apr 04 11:58:58 AEST 2018]; root of context hierarchy
+2018-04-04 11:59:05,269 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 11:59:05,329 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 11:59:05,332 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 11:59:05,408 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 11:59:05,409 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 11:59:05,493 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 11:59:05,920 - Started ProductInfoRepositoryTest in 8.624 seconds (JVM running for 10.104)
+2018-04-04 11:59:06,136 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 11:59:06,493 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Wed Apr 04 11:58:58 AEST 2018]; root of context hierarchy
+2018-04-04 11:59:06,500 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 11:59:06,502 - HikariPool-1 - Shutdown initiated...
+2018-04-04 11:59:06,512 - HikariPool-1 - Shutdown completed.
+2018-04-04 12:32:35,586 - Starting ProductInfoServiceImplTest on Asus with PID 9380 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 12:32:35,587 - No active profile set, falling back to default profiles: default
+2018-04-04 12:32:35,697 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@e3c0e40: startup date [Wed Apr 04 12:32:35 AEST 2018]; root of context hierarchy
+2018-04-04 12:32:37,598 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc6ec036] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 12:32:37,935 - HikariPool-1 - Starting...
+2018-04-04 12:32:38,253 - HikariPool-1 - Start completed.
+2018-04-04 12:32:38,441 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 12:32:38,461 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 12:32:38,564 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 12:32:38,566 - HHH000206: hibernate.properties not found
+2018-04-04 12:32:38,614 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 12:32:38,791 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 12:32:39,898 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 12:32:41,728 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@e3c0e40: startup date [Wed Apr 04 12:32:35 AEST 2018]; root of context hierarchy
+2018-04-04 12:32:41,810 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 12:32:41,876 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 12:32:41,878 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 12:32:41,942 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 12:32:41,942 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 12:32:42,019 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 12:32:42,420 - Started ProductInfoServiceImplTest in 8.309 seconds (JVM running for 9.862)
+2018-04-04 12:32:42,618 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 12:32:43,044 - Closing org.springframework.web.context.support.GenericWebApplicationContext@e3c0e40: startup date [Wed Apr 04 12:32:35 AEST 2018]; root of context hierarchy
+2018-04-04 12:32:43,049 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 12:32:43,050 - HikariPool-1 - Shutdown initiated...
+2018-04-04 12:32:43,058 - HikariPool-1 - Shutdown completed.
+2018-04-04 14:04:47,479 - Starting SellApplication on Asus with PID 736 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 14:04:47,485 - No active profile set, falling back to default profiles: default
+2018-04-04 14:04:47,544 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fbd1f6: startup date [Wed Apr 04 14:04:47 AEST 2018]; root of context hierarchy
+2018-04-04 14:04:48,555 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2bdf7ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:04:49,356 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 14:04:49,407 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:04:49,422 - Starting service [Tomcat]
+2018-04-04 14:04:49,422 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:04:49,437 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 14:04:49,647 - Initializing Spring embedded WebApplicationContext
+2018-04-04 14:04:49,648 - Root WebApplicationContext: initialization completed in 2104 ms
+2018-04-04 14:04:49,781 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:04:49,785 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:04:49,786 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:04:49,786 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:04:49,786 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:04:49,975 - HikariPool-1 - Starting...
+2018-04-04 14:04:50,160 - HikariPool-1 - Start completed.
+2018-04-04 14:04:50,207 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:04:50,221 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:04:50,450 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:04:50,452 - HHH000206: hibernate.properties not found
+2018-04-04 14:04:50,513 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:04:50,744 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:04:51,374 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:04:52,217 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fbd1f6: startup date [Wed Apr 04 14:04:47 AEST 2018]; root of context hierarchy
+2018-04-04 14:04:52,252 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:04:52,284 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 14:04:52,291 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:04:52,292 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:04:52,328 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:04:52,328 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:04:52,371 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:04:52,753 - Registering beans for JMX exposure on startup
+2018-04-04 14:04:52,754 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:04:52,762 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 14:04:52,790 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:04:52,804 - Using a shared selector for servlet write/read
+2018-04-04 14:04:52,853 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 14:04:52,858 - Started SellApplication in 6.458 seconds (JVM running for 8.5)
+2018-04-04 14:05:27,292 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:05:27,292 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:05:27,314 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-04-04 14:06:35,529 - Starting SellApplication on Asus with PID 6244 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 14:06:35,534 - No active profile set, falling back to default profiles: default
+2018-04-04 14:06:35,772 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Wed Apr 04 14:06:35 AEST 2018]; root of context hierarchy
+2018-04-04 14:06:37,196 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20712863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:06:37,526 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 14:06:37,543 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:06:37,553 - Starting service [Tomcat]
+2018-04-04 14:06:37,553 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:06:37,557 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 14:06:37,676 - Initializing Spring embedded WebApplicationContext
+2018-04-04 14:06:37,676 - Root WebApplicationContext: initialization completed in 1904 ms
+2018-04-04 14:06:37,823 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:06:37,829 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:06:37,830 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:06:37,830 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:06:37,830 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:06:37,977 - HikariPool-1 - Starting...
+2018-04-04 14:06:38,181 - HikariPool-1 - Start completed.
+2018-04-04 14:06:38,229 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:06:38,240 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:06:38,481 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:06:38,482 - HHH000206: hibernate.properties not found
+2018-04-04 14:06:38,525 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:06:38,709 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:06:39,244 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:06:40,053 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Wed Apr 04 14:06:35 AEST 2018]; root of context hierarchy
+2018-04-04 14:06:40,089 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:06:40,129 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 14:06:40,135 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:06:40,135 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:06:40,173 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:06:40,173 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:06:40,222 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:06:40,453 - Registering beans for JMX exposure on startup
+2018-04-04 14:06:40,454 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:06:40,465 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 14:06:40,478 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:06:40,505 - Using a shared selector for servlet write/read
+2018-04-04 14:06:40,523 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 14:06:40,525 - Started SellApplication in 5.801 seconds (JVM running for 7.069)
+2018-04-04 14:06:52,891 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:06:52,891 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:06:52,924 - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2018-04-04 14:15:34,949 - Starting SellApplication on Asus with PID 9572 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 14:15:34,957 - No active profile set, falling back to default profiles: default
+2018-04-04 14:15:35,275 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45c7e403: startup date [Wed Apr 04 14:15:35 AEST 2018]; root of context hierarchy
+2018-04-04 14:15:36,745 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51b3ea3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:15:37,064 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 14:15:37,079 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:15:37,088 - Starting service [Tomcat]
+2018-04-04 14:15:37,089 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:15:37,092 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 14:15:37,223 - Initializing Spring embedded WebApplicationContext
+2018-04-04 14:15:37,223 - Root WebApplicationContext: initialization completed in 1948 ms
+2018-04-04 14:15:37,362 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:15:37,366 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:15:37,366 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:15:37,366 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:15:37,366 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:15:37,519 - HikariPool-1 - Starting...
+2018-04-04 14:15:37,742 - HikariPool-1 - Start completed.
+2018-04-04 14:15:37,789 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:15:37,805 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:15:38,060 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:15:38,061 - HHH000206: hibernate.properties not found
+2018-04-04 14:15:38,103 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:15:38,217 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:15:38,732 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:15:39,552 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45c7e403: startup date [Wed Apr 04 14:15:35 AEST 2018]; root of context hierarchy
+2018-04-04 14:15:39,588 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:15:39,624 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 14:15:39,631 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:15:39,631 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:15:39,671 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:15:39,672 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:15:39,719 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:15:39,940 - Registering beans for JMX exposure on startup
+2018-04-04 14:15:39,942 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:15:39,947 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 14:15:39,961 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:15:39,971 - Using a shared selector for servlet write/read
+2018-04-04 14:15:39,986 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 14:15:39,989 - Started SellApplication in 5.892 seconds (JVM running for 7.195)
+2018-04-04 14:15:46,210 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:15:46,210 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:15:46,228 - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-04-04 14:17:41,049 - Starting SellApplication on Asus with PID 2816 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 14:17:41,060 - No active profile set, falling back to default profiles: default
+2018-04-04 14:17:41,288 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a52dba3: startup date [Wed Apr 04 14:17:41 AEST 2018]; root of context hierarchy
+2018-04-04 14:17:42,497 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7ae6c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:17:42,821 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 14:17:42,836 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:17:42,846 - Starting service [Tomcat]
+2018-04-04 14:17:42,846 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:17:42,852 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 14:17:42,991 - Initializing Spring embedded WebApplicationContext
+2018-04-04 14:17:42,992 - Root WebApplicationContext: initialization completed in 1704 ms
+2018-04-04 14:17:43,145 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:17:43,153 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:17:43,153 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:17:43,153 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:17:43,153 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:17:43,312 - HikariPool-1 - Starting...
+2018-04-04 14:17:43,544 - HikariPool-1 - Start completed.
+2018-04-04 14:17:43,608 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:17:43,622 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:17:43,938 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:17:43,940 - HHH000206: hibernate.properties not found
+2018-04-04 14:17:44,012 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:17:44,174 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:17:44,743 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:17:45,595 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a52dba3: startup date [Wed Apr 04 14:17:41 AEST 2018]; root of context hierarchy
+2018-04-04 14:17:45,630 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:17:45,672 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 14:17:45,680 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:17:45,681 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:17:45,722 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:17:45,723 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:17:45,773 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:17:46,016 - Registering beans for JMX exposure on startup
+2018-04-04 14:17:46,017 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:17:46,022 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 14:17:46,038 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:17:46,051 - Using a shared selector for servlet write/read
+2018-04-04 14:17:46,067 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 14:17:46,072 - Started SellApplication in 6.148 seconds (JVM running for 7.401)
+2018-04-04 14:17:50,167 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:17:50,168 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:17:50,215 - FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+2018-04-04 14:42:12,128 - Starting SellApplication on Asus with PID 10776 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 14:42:12,137 - No active profile set, falling back to default profiles: default
+2018-04-04 14:42:12,203 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65e98b1c: startup date [Wed Apr 04 14:42:12 AEST 2018]; root of context hierarchy
+2018-04-04 14:42:14,152 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26a4412f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:42:14,459 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 14:42:14,484 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:42:14,494 - Starting service [Tomcat]
+2018-04-04 14:42:14,494 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:42:14,498 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 14:42:14,596 - Initializing Spring embedded WebApplicationContext
+2018-04-04 14:42:14,596 - Root WebApplicationContext: initialization completed in 2393 ms
+2018-04-04 14:42:14,721 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:42:14,727 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:42:14,727 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:42:14,727 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:42:14,727 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:42:14,866 - HikariPool-1 - Starting...
+2018-04-04 14:42:15,045 - HikariPool-1 - Start completed.
+2018-04-04 14:42:15,086 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:42:15,098 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:42:15,299 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:42:15,300 - HHH000206: hibernate.properties not found
+2018-04-04 14:42:15,337 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:42:15,442 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:42:15,941 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:42:16,675 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65e98b1c: startup date [Wed Apr 04 14:42:12 AEST 2018]; root of context hierarchy
+2018-04-04 14:42:16,707 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:42:16,741 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 14:42:16,747 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:42:16,748 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:42:16,787 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:42:16,788 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:42:16,844 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:42:17,054 - Registering beans for JMX exposure on startup
+2018-04-04 14:42:17,056 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:42:17,062 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 14:42:17,076 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:42:17,085 - Using a shared selector for servlet write/read
+2018-04-04 14:42:17,098 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 14:42:17,100 - Started SellApplication in 5.666 seconds (JVM running for 6.706)
+2018-04-04 14:42:21,625 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:42:21,625 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:42:21,651 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-04-04 14:42:21,700 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 14:50:52,972 - Starting SellApplication on Asus with PID 9680 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 14:50:52,978 - No active profile set, falling back to default profiles: default
+2018-04-04 14:50:53,039 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2925bf5b: startup date [Wed Apr 04 14:50:53 AEST 2018]; root of context hierarchy
+2018-04-04 14:50:54,864 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7977aaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 14:50:55,183 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 14:50:55,198 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:50:55,207 - Starting service [Tomcat]
+2018-04-04 14:50:55,208 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 14:50:55,214 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 14:50:55,324 - Initializing Spring embedded WebApplicationContext
+2018-04-04 14:50:55,324 - Root WebApplicationContext: initialization completed in 2285 ms
+2018-04-04 14:50:55,469 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 14:50:55,476 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 14:50:55,477 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 14:50:55,477 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 14:50:55,477 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 14:50:55,628 - HikariPool-1 - Starting...
+2018-04-04 14:50:55,811 - HikariPool-1 - Start completed.
+2018-04-04 14:50:55,858 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:50:55,869 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 14:50:56,108 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 14:50:56,110 - HHH000206: hibernate.properties not found
+2018-04-04 14:50:56,148 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 14:50:56,261 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 14:50:56,805 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 14:50:57,926 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2925bf5b: startup date [Wed Apr 04 14:50:53 AEST 2018]; root of context hierarchy
+2018-04-04 14:50:57,961 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 14:50:58,000 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 14:50:58,007 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 14:50:58,007 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 14:50:58,064 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:50:58,064 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:50:58,113 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 14:50:58,420 - Registering beans for JMX exposure on startup
+2018-04-04 14:50:58,421 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 14:50:58,427 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 14:50:58,443 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 14:50:58,456 - Using a shared selector for servlet write/read
+2018-04-04 14:50:58,469 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 14:50:58,474 - Started SellApplication in 6.387 seconds (JVM running for 7.633)
+2018-04-04 14:51:08,354 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 14:51:08,354 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 14:51:08,381 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-04-04 14:51:08,433 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 21:24:03,316 - Starting SellApplication on Asus with PID 6212 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 21:24:03,384 - No active profile set, falling back to default profiles: default
+2018-04-04 21:24:03,724 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@279fedbd: startup date [Wed Apr 04 21:24:03 AEST 2018]; root of context hierarchy
+2018-04-04 21:24:04,811 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4399979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 21:24:05,123 - Tomcat initialized with port(s): 8081 (http)
+2018-04-04 21:24:05,137 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-04 21:24:05,147 - Starting service [Tomcat]
+2018-04-04 21:24:05,147 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-04 21:24:05,151 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-04 21:24:05,275 - Initializing Spring embedded WebApplicationContext
+2018-04-04 21:24:05,276 - Root WebApplicationContext: initialization completed in 1552 ms
+2018-04-04 21:24:05,442 - Servlet dispatcherServlet mapped to [/]
+2018-04-04 21:24:05,446 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-04 21:24:05,447 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-04 21:24:05,447 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-04 21:24:05,447 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-04 21:24:05,584 - HikariPool-1 - Starting...
+2018-04-04 21:24:06,518 - HikariPool-1 - Start completed.
+2018-04-04 21:24:06,583 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 21:24:06,594 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 21:24:06,831 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 21:24:06,833 - HHH000206: hibernate.properties not found
+2018-04-04 21:24:06,869 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 21:24:06,987 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 21:24:08,008 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 21:24:08,725 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@279fedbd: startup date [Wed Apr 04 21:24:03 AEST 2018]; root of context hierarchy
+2018-04-04 21:24:08,757 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 21:24:08,793 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 21:24:08,799 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 21:24:08,799 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 21:24:08,850 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 21:24:08,850 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 21:24:08,889 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 21:24:09,096 - Registering beans for JMX exposure on startup
+2018-04-04 21:24:09,097 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-04 21:24:09,102 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-04 21:24:09,113 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-04 21:24:09,158 - Using a shared selector for servlet write/read
+2018-04-04 21:24:09,173 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-04 21:24:09,175 - Started SellApplication in 6.625 seconds (JVM running for 7.763)
+2018-04-04 21:24:15,414 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-04 21:24:15,415 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-04 21:24:15,462 - FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2018-04-04 21:24:15,617 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 22:03:31,103 - Starting OrderMasterRepositoryTest on Asus with PID 11872 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:03:31,106 - No active profile set, falling back to default profiles: default
+2018-04-04 22:03:31,320 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Wed Apr 04 22:03:31 AEST 2018]; root of context hierarchy
+2018-04-04 22:03:33,408 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$851ba68a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:03:33,807 - HikariPool-1 - Starting...
+2018-04-04 22:03:34,284 - HikariPool-1 - Start completed.
+2018-04-04 22:03:34,371 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:03:34,400 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:03:34,513 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:03:34,515 - HHH000206: hibernate.properties not found
+2018-04-04 22:03:34,611 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:03:34,885 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:03:36,486 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:03:38,862 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+2018-04-04 22:03:38,863 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:03:38,864 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:03:38,870 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:03:38,882 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-04 22:03:38,937 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:138)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.mvcConversionService(<generated>)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:604)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.getConfigurableWebBindingInitializer(WebMvcAutoConfiguration.java:525)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:566)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:468)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.CGLIB$requestMappingHandlerAdapter$4(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a$$FastClassBySpringCGLIB$$b6deac72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.data.repository.support.Repositories.cacheRepositoryFactory(Repositories.java:96)
+	at org.springframework.data.repository.support.Repositories.populateRepositoryFactoryInformation(Repositories.java:89)
+	at org.springframework.data.repository.support.Repositories.<init>(Repositories.java:82)
+	at org.springframework.data.repository.support.DomainClassConverter.setApplicationContext(DomainClassConverter.java:109)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.addFormatters(SpringDataWebConfiguration.java:130)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addFormatters(WebMvcConfigurerComposite.java:81)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addFormatters(DelegatingWebMvcConfiguration.java:78)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:496)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.CGLIB$mvcConversionService$1(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a$$FastClassBySpringCGLIB$$b6deac72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.mvcConversionService(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:82)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:208)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 93 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:350)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:330)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:283)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:265)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:248)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:76)
+	... 119 common frames omitted
+2018-04-04 22:03:38,951 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7b2bbc3] to prepare test instance [com.tony.repository.OrderMasterRepositoryTest@53d6e959]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:138)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.mvcConversionService(<generated>)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:604)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.getConfigurableWebBindingInitializer(WebMvcAutoConfiguration.java:525)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:566)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:468)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.CGLIB$requestMappingHandlerAdapter$4(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a$$FastClassBySpringCGLIB$$b6deac72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.data.repository.support.Repositories.cacheRepositoryFactory(Repositories.java:96)
+	at org.springframework.data.repository.support.Repositories.populateRepositoryFactoryInformation(Repositories.java:89)
+	at org.springframework.data.repository.support.Repositories.<init>(Repositories.java:82)
+	at org.springframework.data.repository.support.DomainClassConverter.setApplicationContext(DomainClassConverter.java:109)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.addFormatters(SpringDataWebConfiguration.java:130)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addFormatters(WebMvcConfigurerComposite.java:81)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addFormatters(DelegatingWebMvcConfiguration.java:78)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:496)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.CGLIB$mvcConversionService$1(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a$$FastClassBySpringCGLIB$$b6deac72.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$f008f70a.mvcConversionService(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:82)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:208)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 93 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:350)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:330)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:283)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:265)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:248)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:76)
+	... 119 common frames omitted
+2018-04-04 22:11:02,101 - Starting OrderMasterRepositoryTest on Asus with PID 12196 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:11:02,103 - No active profile set, falling back to default profiles: default
+2018-04-04 22:11:02,198 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Wed Apr 04 22:11:02 AEST 2018]; root of context hierarchy
+2018-04-04 22:11:04,144 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edc6e4ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:11:04,501 - HikariPool-1 - Starting...
+2018-04-04 22:11:04,898 - HikariPool-1 - Start completed.
+2018-04-04 22:11:04,968 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:11:04,989 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:11:05,116 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:11:05,118 - HHH000206: hibernate.properties not found
+2018-04-04 22:11:05,197 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:11:05,397 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:11:06,634 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:11:08,281 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+2018-04-04 22:11:08,282 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:11:08,283 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:11:08,293 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:11:08,304 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-04 22:11:08,313 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:138)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.mvcConversionService(<generated>)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:604)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.getConfigurableWebBindingInitializer(WebMvcAutoConfiguration.java:525)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:566)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:468)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.CGLIB$requestMappingHandlerAdapter$5(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f$$FastClassBySpringCGLIB$$d0f9ab44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.data.repository.support.Repositories.cacheRepositoryFactory(Repositories.java:96)
+	at org.springframework.data.repository.support.Repositories.populateRepositoryFactoryInformation(Repositories.java:89)
+	at org.springframework.data.repository.support.Repositories.<init>(Repositories.java:82)
+	at org.springframework.data.repository.support.DomainClassConverter.setApplicationContext(DomainClassConverter.java:109)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.addFormatters(SpringDataWebConfiguration.java:130)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addFormatters(WebMvcConfigurerComposite.java:81)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addFormatters(DelegatingWebMvcConfiguration.java:78)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:496)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.CGLIB$mvcConversionService$1(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f$$FastClassBySpringCGLIB$$d0f9ab44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.mvcConversionService(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:82)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:208)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 93 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:350)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:330)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:283)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:265)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:248)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:76)
+	... 119 common frames omitted
+2018-04-04 22:11:08,324 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7b2bbc3] to prepare test instance [com.tony.repository.OrderMasterRepositoryTest@1a914089]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:138)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 41 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.mvcConversionService(<generated>)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:604)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.getConfigurableWebBindingInitializer(WebMvcAutoConfiguration.java:525)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:566)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:468)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.CGLIB$requestMappingHandlerAdapter$5(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f$$FastClassBySpringCGLIB$$d0f9ab44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.requestMappingHandlerAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderMasterRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1710)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1091)
+	at org.springframework.data.repository.support.Repositories.cacheRepositoryFactory(Repositories.java:96)
+	at org.springframework.data.repository.support.Repositories.populateRepositoryFactoryInformation(Repositories.java:89)
+	at org.springframework.data.repository.support.Repositories.<init>(Repositories.java:82)
+	at org.springframework.data.repository.support.DomainClassConverter.setApplicationContext(DomainClassConverter.java:109)
+	at org.springframework.data.web.config.SpringDataWebConfiguration.addFormatters(SpringDataWebConfiguration.java:130)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addFormatters(WebMvcConfigurerComposite.java:81)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addFormatters(DelegatingWebMvcConfiguration.java:78)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:496)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.CGLIB$mvcConversionService$1(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f$$FastClassBySpringCGLIB$$d0f9ab44.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$58b4357f.mvcConversionService(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 68 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.tony.repository.OrderMasterRepository.findByBuyerOpenId(java.lang.String,org.springframework.data.domain.Pageable)! No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:82)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:208)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:553)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:546)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:548)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:538)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:538)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$3(RepositoryFactoryBeanSupport.java:287)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:141)
+	at org.springframework.data.util.Lazy.get(Lazy.java:63)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:290)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1769)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1706)
+	... 93 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property buyerOpenId found for type OrderMaster! Did you mean 'buyerOpenid'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:350)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:330)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:283)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:265)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:248)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:76)
+	... 119 common frames omitted
+2018-04-04 22:11:55,396 - Starting OrderMasterRepositoryTest on Asus with PID 11672 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:11:55,397 - No active profile set, falling back to default profiles: default
+2018-04-04 22:11:55,880 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Wed Apr 04 22:11:55 AEST 2018]; root of context hierarchy
+2018-04-04 22:11:57,882 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a40a1be6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:11:58,204 - HikariPool-1 - Starting...
+2018-04-04 22:11:58,615 - HikariPool-1 - Start completed.
+2018-04-04 22:11:58,710 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:11:58,749 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:11:58,897 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:11:58,899 - HHH000206: hibernate.properties not found
+2018-04-04 22:11:58,949 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:11:59,132 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:12:00,214 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:12:01,920 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Wed Apr 04 22:11:55 AEST 2018]; root of context hierarchy
+2018-04-04 22:12:02,025 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:12:02,087 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:12:02,093 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:12:02,095 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:12:02,163 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:12:02,164 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:12:02,235 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:12:02,597 - Started OrderMasterRepositoryTest in 8.165 seconds (JVM running for 9.635)
+2018-04-04 22:12:03,167 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Wed Apr 04 22:11:55 AEST 2018]; root of context hierarchy
+2018-04-04 22:12:03,173 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:12:03,175 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:12:03,181 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:19:50,522 - Starting OrderMasterRepositoryTest on Asus with PID 10980 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:19:50,530 - No active profile set, falling back to default profiles: default
+2018-04-04 22:19:50,638 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Wed Apr 04 22:19:50 AEST 2018]; root of context hierarchy
+2018-04-04 22:19:52,458 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae0bf703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:19:52,808 - HikariPool-1 - Starting...
+2018-04-04 22:19:53,081 - HikariPool-1 - Start completed.
+2018-04-04 22:19:53,241 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:19:53,260 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:19:53,385 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:19:53,387 - HHH000206: hibernate.properties not found
+2018-04-04 22:19:53,437 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:19:53,616 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:19:54,694 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:19:56,609 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Wed Apr 04 22:19:50 AEST 2018]; root of context hierarchy
+2018-04-04 22:19:56,698 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:19:56,759 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:19:56,766 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:19:56,767 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:19:56,838 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:19:56,838 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:19:56,910 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:19:57,332 - Started OrderMasterRepositoryTest in 8.566 seconds (JVM running for 10.085)
+2018-04-04 22:19:57,689 - Closing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Wed Apr 04 22:19:50 AEST 2018]; root of context hierarchy
+2018-04-04 22:19:57,704 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:19:57,706 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:19:57,718 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:35:43,008 - Starting OrderMasterRepositoryTest on Asus with PID 6328 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:35:43,009 - No active profile set, falling back to default profiles: default
+2018-04-04 22:35:43,086 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b629f13: startup date [Wed Apr 04 22:35:43 AEST 2018]; root of context hierarchy
+2018-04-04 22:35:45,680 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57141104] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:35:46,164 - HikariPool-1 - Starting...
+2018-04-04 22:35:46,633 - HikariPool-1 - Start completed.
+2018-04-04 22:35:46,769 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:35:46,812 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:35:46,973 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:35:46,977 - HHH000206: hibernate.properties not found
+2018-04-04 22:35:47,083 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:35:47,402 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:35:48,821 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:35:51,617 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4b629f13: startup date [Wed Apr 04 22:35:43 AEST 2018]; root of context hierarchy
+2018-04-04 22:35:51,750 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:35:51,852 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:35:51,860 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:35:51,862 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:35:51,982 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:35:51,982 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:35:52,110 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:35:52,870 - Started OrderMasterRepositoryTest in 10.976 seconds (JVM running for 13.946)
+2018-04-04 22:35:53,379 - Closing org.springframework.web.context.support.GenericWebApplicationContext@4b629f13: startup date [Wed Apr 04 22:35:43 AEST 2018]; root of context hierarchy
+2018-04-04 22:35:53,389 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:35:53,392 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:35:53,407 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:40:45,075 - Starting OrderMasterRepositoryTest on Asus with PID 9344 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:40:45,076 - No active profile set, falling back to default profiles: default
+2018-04-04 22:40:45,221 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@22c01ab0: startup date [Wed Apr 04 22:40:45 AEST 2018]; root of context hierarchy
+2018-04-04 22:40:47,242 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d93b1c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:40:47,703 - HikariPool-1 - Starting...
+2018-04-04 22:40:48,167 - HikariPool-1 - Start completed.
+2018-04-04 22:40:48,256 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:40:48,286 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:40:48,422 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:40:48,424 - HHH000206: hibernate.properties not found
+2018-04-04 22:40:48,513 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:40:48,777 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:40:49,994 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:40:52,353 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@22c01ab0: startup date [Wed Apr 04 22:40:45 AEST 2018]; root of context hierarchy
+2018-04-04 22:40:52,457 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:40:52,540 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:40:52,547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:40:52,548 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:40:52,661 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:40:52,661 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:40:52,758 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:40:53,398 - Started OrderMasterRepositoryTest in 10.038 seconds (JVM running for 11.978)
+2018-04-04 22:40:53,657 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 22:41:48,003 - Closing org.springframework.web.context.support.GenericWebApplicationContext@22c01ab0: startup date [Wed Apr 04 22:40:45 AEST 2018]; root of context hierarchy
+2018-04-04 22:41:52,248 - Starting OrderMasterRepositoryTest on Asus with PID 7696 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:41:52,249 - No active profile set, falling back to default profiles: default
+2018-04-04 22:41:52,337 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@51684e4a: startup date [Wed Apr 04 22:41:52 AEST 2018]; root of context hierarchy
+2018-04-04 22:41:54,579 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5724b9be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:41:54,977 - HikariPool-1 - Starting...
+2018-04-04 22:41:55,416 - HikariPool-1 - Start completed.
+2018-04-04 22:41:55,500 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:41:55,524 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:41:55,675 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:41:55,677 - HHH000206: hibernate.properties not found
+2018-04-04 22:41:55,761 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:41:56,031 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:41:57,438 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:41:59,709 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@51684e4a: startup date [Wed Apr 04 22:41:52 AEST 2018]; root of context hierarchy
+2018-04-04 22:41:59,811 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:41:59,896 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:41:59,904 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:41:59,906 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:42:00,048 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:42:00,048 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:42:00,162 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:42:00,861 - Started OrderMasterRepositoryTest in 10.125 seconds (JVM running for 12.38)
+2018-04-04 22:42:01,119 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 22:42:28,095 - Closing org.springframework.web.context.support.GenericWebApplicationContext@51684e4a: startup date [Wed Apr 04 22:41:52 AEST 2018]; root of context hierarchy
+2018-04-04 22:42:28,103 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:42:28,104 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:42:28,110 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:43:08,940 - Starting OrderMasterRepositoryTest on Asus with PID 10912 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:43:08,954 - No active profile set, falling back to default profiles: default
+2018-04-04 22:43:09,079 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Wed Apr 04 22:43:09 AEST 2018]; root of context hierarchy
+2018-04-04 22:43:10,991 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8dda5e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:43:11,348 - HikariPool-1 - Starting...
+2018-04-04 22:43:11,750 - HikariPool-1 - Start completed.
+2018-04-04 22:43:11,829 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:43:11,850 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:43:11,980 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:43:11,982 - HHH000206: hibernate.properties not found
+2018-04-04 22:43:12,034 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:43:12,211 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:43:13,256 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:43:14,990 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Wed Apr 04 22:43:09 AEST 2018]; root of context hierarchy
+2018-04-04 22:43:15,071 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:43:15,133 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:43:15,138 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:43:15,139 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:43:15,235 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:43:15,235 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:43:15,319 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:43:15,713 - Started OrderMasterRepositoryTest in 8.146 seconds (JVM running for 9.609)
+2018-04-04 22:43:15,906 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 22:43:16,203 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7fc4780b: startup date [Wed Apr 04 22:43:09 AEST 2018]; root of context hierarchy
+2018-04-04 22:43:16,210 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:43:16,212 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:43:16,219 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:55:53,892 - Starting OrderDetailRepositoryTest on Asus with PID 1108 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:55:53,893 - No active profile set, falling back to default profiles: default
+2018-04-04 22:55:54,055 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Wed Apr 04 22:55:54 AEST 2018]; root of context hierarchy
+2018-04-04 22:55:56,359 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$351da318] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:55:56,809 - HikariPool-1 - Starting...
+2018-04-04 22:55:57,106 - HikariPool-1 - Start completed.
+2018-04-04 22:55:57,290 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:55:57,315 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:55:57,449 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:55:57,451 - HHH000206: hibernate.properties not found
+2018-04-04 22:55:57,511 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:55:57,730 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:55:59,027 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:56:01,248 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Wed Apr 04 22:55:54 AEST 2018]; root of context hierarchy
+2018-04-04 22:56:01,351 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:56:01,430 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:56:01,437 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:56:01,439 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:56:01,537 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:56:01,538 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:56:01,641 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:56:02,159 - Started OrderDetailRepositoryTest in 10.299 seconds (JVM running for 12.102)
+2018-04-04 22:56:02,557 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Wed Apr 04 22:55:54 AEST 2018]; root of context hierarchy
+2018-04-04 22:56:02,577 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:56:02,579 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:56:02,585 - HikariPool-1 - Shutdown completed.
+2018-04-04 22:58:06,009 - Starting OrderDetailRepositoryTest on Asus with PID 1596 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-04 22:58:06,011 - No active profile set, falling back to default profiles: default
+2018-04-04 22:58:06,078 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Wed Apr 04 22:58:06 AEST 2018]; root of context hierarchy
+2018-04-04 22:58:08,095 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ad6ecb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-04 22:58:08,452 - HikariPool-1 - Starting...
+2018-04-04 22:58:08,824 - HikariPool-1 - Start completed.
+2018-04-04 22:58:08,892 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:58:08,911 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-04 22:58:09,031 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-04 22:58:09,034 - HHH000206: hibernate.properties not found
+2018-04-04 22:58:09,087 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-04 22:58:09,274 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-04 22:58:10,370 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:58:12,273 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Wed Apr 04 22:58:06 AEST 2018]; root of context hierarchy
+2018-04-04 22:58:12,358 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-04 22:58:12,419 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-04 22:58:12,425 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-04 22:58:12,427 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-04 22:58:12,497 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:58:12,498 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:58:12,572 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-04 22:58:13,027 - Started OrderDetailRepositoryTest in 8.631 seconds (JVM running for 10.459)
+2018-04-04 22:58:13,220 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-04 22:58:13,513 - Closing org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Wed Apr 04 22:58:06 AEST 2018]; root of context hierarchy
+2018-04-04 22:58:13,521 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-04 22:58:13,522 - HikariPool-1 - Shutdown initiated...
+2018-04-04 22:58:13,532 - HikariPool-1 - Shutdown completed.

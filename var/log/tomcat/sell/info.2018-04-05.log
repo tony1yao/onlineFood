@@ -1,0 +1,1467 @@
+2018-04-05 10:01:04,771 - Starting OrderServiceImplTest on Asus with PID 3784 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:01:04,772 - No active profile set, falling back to default profiles: default
+2018-04-05 10:01:04,922 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Apr 05 10:01:04 AEST 2018]; root of context hierarchy
+2018-04-05 10:01:07,326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e54789d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:01:07,815 - HikariPool-1 - Starting...
+2018-04-05 10:01:08,312 - HikariPool-1 - Start completed.
+2018-04-05 10:01:08,403 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:01:08,431 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:01:08,664 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:01:08,668 - HHH000206: hibernate.properties not found
+2018-04-05 10:01:08,759 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:01:09,021 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:01:10,575 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:01:13,030 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Apr 05 10:01:04 AEST 2018]; root of context hierarchy
+2018-04-05 10:01:13,123 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:01:13,218 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:01:13,224 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:01:13,225 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:01:13,306 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:01:13,306 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:01:13,392 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:01:13,891 - Started OrderServiceImplTest in 10.301 seconds (JVM running for 13.265)
+2018-04-05 10:01:14,550 - Closing org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Apr 05 10:01:04 AEST 2018]; root of context hierarchy
+2018-04-05 10:01:14,557 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:01:14,563 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:01:14,572 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:02:32,324 - Starting OrderServiceImplTest on Asus with PID 7732 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:02:32,328 - No active profile set, falling back to default profiles: default
+2018-04-05 10:02:32,428 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:02:32 AEST 2018]; root of context hierarchy
+2018-04-05 10:02:34,891 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d11d9c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:02:35,346 - HikariPool-1 - Starting...
+2018-04-05 10:02:35,835 - HikariPool-1 - Start completed.
+2018-04-05 10:02:35,914 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:02:35,940 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:02:36,103 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:02:36,105 - HHH000206: hibernate.properties not found
+2018-04-05 10:02:36,174 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:02:36,424 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:02:37,746 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:02:39,962 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:02:32 AEST 2018]; root of context hierarchy
+2018-04-05 10:02:40,053 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:02:40,136 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:02:40,142 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:02:40,144 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:02:40,231 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:02:40,231 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:02:40,325 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:02:40,789 - Started OrderServiceImplTest in 10.45 seconds (JVM running for 12.47)
+2018-04-05 10:02:41,182 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:02:32 AEST 2018]; root of context hierarchy
+2018-04-05 10:02:41,191 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:02:41,193 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:02:41,206 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:04:26,889 - Starting OrderServiceImplTest on Asus with PID 9976 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:04:26,891 - No active profile set, falling back to default profiles: default
+2018-04-05 10:04:26,986 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Thu Apr 05 10:04:26 AEST 2018]; root of context hierarchy
+2018-04-05 10:04:29,591 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c54a83e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:04:30,124 - HikariPool-1 - Starting...
+2018-04-05 10:04:30,573 - HikariPool-1 - Start completed.
+2018-04-05 10:04:30,668 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:04:30,725 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:04:30,882 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:04:30,884 - HHH000206: hibernate.properties not found
+2018-04-05 10:04:30,946 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:04:31,204 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:04:32,726 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:04:34,982 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Thu Apr 05 10:04:26 AEST 2018]; root of context hierarchy
+2018-04-05 10:04:35,258 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:04:35,329 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:04:35,335 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:04:35,337 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:04:35,419 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:04:35,419 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:04:35,505 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:04:36,089 - Started OrderServiceImplTest in 11.115 seconds (JVM running for 13.028)
+2018-04-05 10:04:36,604 - Closing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Thu Apr 05 10:04:26 AEST 2018]; root of context hierarchy
+2018-04-05 10:04:36,623 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:04:36,624 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:04:36,632 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:07:06,645 - Starting OrderServiceImplTest on Asus with PID 7320 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:07:06,651 - No active profile set, falling back to default profiles: default
+2018-04-05 10:07:06,744 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@425357dd: startup date [Thu Apr 05 10:07:06 AEST 2018]; root of context hierarchy
+2018-04-05 10:07:09,758 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a75f2b3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:07:10,171 - HikariPool-1 - Starting...
+2018-04-05 10:07:10,602 - HikariPool-1 - Start completed.
+2018-04-05 10:07:10,697 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:07:10,727 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:07:10,895 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:07:10,898 - HHH000206: hibernate.properties not found
+2018-04-05 10:07:10,998 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:07:11,350 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:07:12,944 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:07:15,395 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@425357dd: startup date [Thu Apr 05 10:07:06 AEST 2018]; root of context hierarchy
+2018-04-05 10:07:15,500 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:07:15,586 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:07:15,593 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:07:15,595 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:07:15,722 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:07:15,722 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:07:15,834 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:07:16,500 - Started OrderServiceImplTest in 10.828 seconds (JVM running for 14.502)
+2018-04-05 10:07:39,715 - Closing org.springframework.web.context.support.GenericWebApplicationContext@425357dd: startup date [Thu Apr 05 10:07:06 AEST 2018]; root of context hierarchy
+2018-04-05 10:07:39,763 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:07:39,764 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:07:39,773 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:08:04,368 - Starting OrderServiceImplTest on Asus with PID 7244 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:08:04,374 - No active profile set, falling back to default profiles: default
+2018-04-05 10:08:04,479 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Thu Apr 05 10:08:04 AEST 2018]; root of context hierarchy
+2018-04-05 10:08:06,764 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f22d6438] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:08:07,115 - HikariPool-1 - Starting...
+2018-04-05 10:08:07,700 - HikariPool-1 - Start completed.
+2018-04-05 10:08:07,828 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:08:07,879 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:08:08,052 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:08:08,054 - HHH000206: hibernate.properties not found
+2018-04-05 10:08:08,111 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:08:08,284 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:08:09,463 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:08:11,443 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Thu Apr 05 10:08:04 AEST 2018]; root of context hierarchy
+2018-04-05 10:08:11,532 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:08:11,592 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:08:11,597 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:08:11,599 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:08:11,656 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:08:11,657 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:08:11,734 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:08:12,156 - Started OrderServiceImplTest in 9.326 seconds (JVM running for 11.267)
+2018-04-05 10:08:12,652 - SQL Error: 1048, SQLState: 23000
+2018-04-05 10:08:12,652 - Column 'order_status' cannot be null
+2018-04-05 10:08:12,654 - HHH000010: On release of batch it still contained JDBC statements
+2018-04-05 10:08:12,655 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-04-05 10:08:12,688 - Closing org.springframework.web.context.support.GenericWebApplicationContext@37fb0bed: startup date [Thu Apr 05 10:08:04 AEST 2018]; root of context hierarchy
+2018-04-05 10:08:12,694 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:08:12,695 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:08:12,708 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:10:16,541 - Starting OrderServiceImplTest on Asus with PID 2072 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:10:16,542 - No active profile set, falling back to default profiles: default
+2018-04-05 10:10:16,615 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:10:16 AEST 2018]; root of context hierarchy
+2018-04-05 10:10:18,800 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a40a1be6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:10:19,179 - HikariPool-1 - Starting...
+2018-04-05 10:10:19,587 - HikariPool-1 - Start completed.
+2018-04-05 10:10:19,682 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:10:19,734 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:10:19,897 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:10:19,899 - HHH000206: hibernate.properties not found
+2018-04-05 10:10:19,958 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:10:20,219 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:10:21,615 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:10:23,804 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:10:16 AEST 2018]; root of context hierarchy
+2018-04-05 10:10:23,937 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:10:24,058 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:10:24,066 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:10:24,067 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:10:24,272 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:10:24,273 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:10:24,385 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:10:24,892 - Started OrderServiceImplTest in 10.412 seconds (JVM running for 12.174)
+2018-04-05 10:10:25,414 - result of creating order is OrderDTO(orderId=null, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=null, orderStatus=0, payStatus=0, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1522887025205306408, orderId=1522887025111747610, productId=1234, productName=Beef Pizza, productPrice=3.50, productQuantity=5, productIcon=xxxxx.jpg)])
+2018-04-05 10:10:25,444 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:10:16 AEST 2018]; root of context hierarchy
+2018-04-05 10:10:25,457 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:10:25,460 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:10:25,468 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:15:18,590 - Starting OrderServiceImplTest on Asus with PID 7096 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:15:18,592 - No active profile set, falling back to default profiles: default
+2018-04-05 10:15:18,689 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7b7fdc8: startup date [Thu Apr 05 10:15:18 AEST 2018]; root of context hierarchy
+2018-04-05 10:15:21,301 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db2b2bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:15:21,732 - HikariPool-1 - Starting...
+2018-04-05 10:15:22,157 - HikariPool-1 - Start completed.
+2018-04-05 10:15:22,240 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:15:22,279 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:15:22,453 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:15:22,456 - HHH000206: hibernate.properties not found
+2018-04-05 10:15:22,520 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:15:22,776 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:15:24,196 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:15:26,369 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7b7fdc8: startup date [Thu Apr 05 10:15:18 AEST 2018]; root of context hierarchy
+2018-04-05 10:15:26,453 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:15:26,531 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:15:26,537 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:15:26,539 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:15:26,626 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:15:26,627 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:15:26,706 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:15:27,163 - Started OrderServiceImplTest in 10.797 seconds (JVM running for 12.785)
+2018-04-05 10:15:27,630 - Closing org.springframework.web.context.support.GenericWebApplicationContext@7b7fdc8: startup date [Thu Apr 05 10:15:18 AEST 2018]; root of context hierarchy
+2018-04-05 10:15:27,645 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:15:27,648 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:15:27,662 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:17:23,027 - Starting OrderServiceImplTest on Asus with PID 7728 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:17:23,044 - No active profile set, falling back to default profiles: default
+2018-04-05 10:17:23,126 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@f5c79a6: startup date [Thu Apr 05 10:17:23 AEST 2018]; root of context hierarchy
+2018-04-05 10:17:25,377 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d73845a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:17:25,753 - HikariPool-1 - Starting...
+2018-04-05 10:17:26,173 - HikariPool-1 - Start completed.
+2018-04-05 10:17:26,271 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:17:26,307 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:17:26,448 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:17:26,450 - HHH000206: hibernate.properties not found
+2018-04-05 10:17:26,539 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:17:26,819 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:17:28,095 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:17:30,305 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@f5c79a6: startup date [Thu Apr 05 10:17:23 AEST 2018]; root of context hierarchy
+2018-04-05 10:17:30,410 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:17:30,484 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:17:30,492 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:17:30,494 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:17:30,603 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:17:30,604 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:17:30,717 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:17:31,315 - Started OrderServiceImplTest in 10.243 seconds (JVM running for 12.186)
+2018-04-05 10:18:13,550 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s264ms716µs901ns).
+2018-04-05 10:19:06,568 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s10ms125µs5ns).
+2018-04-05 10:21:17,433 - Starting OrderServiceImplTest on Asus with PID 7684 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:21:17,434 - No active profile set, falling back to default profiles: default
+2018-04-05 10:21:17,488 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c852c0f: startup date [Thu Apr 05 10:21:17 AEST 2018]; root of context hierarchy
+2018-04-05 10:21:20,239 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e751c732] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:21:20,588 - HikariPool-1 - Starting...
+2018-04-05 10:21:20,946 - HikariPool-1 - Start completed.
+2018-04-05 10:21:21,024 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:21:21,044 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:21:21,176 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:21:21,179 - HHH000206: hibernate.properties not found
+2018-04-05 10:21:21,241 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:21:21,445 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:21:22,504 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:21:24,226 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c852c0f: startup date [Thu Apr 05 10:21:17 AEST 2018]; root of context hierarchy
+2018-04-05 10:21:24,308 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:21:24,373 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:21:24,378 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:21:24,380 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:21:24,443 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:21:24,443 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:21:24,516 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:21:24,865 - Started OrderServiceImplTest in 8.427 seconds (JVM running for 9.907)
+2018-04-05 10:21:25,277 - result of creating order is OrderDTO(orderId=null, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=null, orderStatus=0, payStatus=0, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1522887685136208058, orderId=1522887685034642470, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 10:21:25,354 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1c852c0f: startup date [Thu Apr 05 10:21:17 AEST 2018]; root of context hierarchy
+2018-04-05 10:21:25,359 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:21:25,360 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:21:25,370 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:22:27,278 - Starting OrderServiceImplTest on Asus with PID 9688 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:22:27,281 - No active profile set, falling back to default profiles: default
+2018-04-05 10:22:27,422 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Thu Apr 05 10:22:27 AEST 2018]; root of context hierarchy
+2018-04-05 10:22:29,629 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$351da318] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:22:29,961 - HikariPool-1 - Starting...
+2018-04-05 10:22:30,321 - HikariPool-1 - Start completed.
+2018-04-05 10:22:30,389 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:22:30,411 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:22:30,550 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:22:30,552 - HHH000206: hibernate.properties not found
+2018-04-05 10:22:30,612 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:22:30,812 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:22:31,904 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:22:33,674 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Thu Apr 05 10:22:27 AEST 2018]; root of context hierarchy
+2018-04-05 10:22:33,749 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:22:33,814 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:22:33,820 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:22:33,821 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:22:33,878 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:22:33,878 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:22:33,954 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:22:34,336 - Started OrderServiceImplTest in 8.361 seconds (JVM running for 9.865)
+2018-04-05 10:22:34,752 - result of creating order is OrderDTO(orderId=null, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=null, orderStatus=0, payStatus=0, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1522887754616675975, orderId=1522887754500875796, productId=1234, productName=Beef Pizza, productPrice=3.50, productQuantity=5, productIcon=xxxxx.jpg), OrderDetail(detailId=1522887754642364985, orderId=1522887754500875796, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 10:22:34,761 - Closing org.springframework.web.context.support.GenericWebApplicationContext@13b3d178: startup date [Thu Apr 05 10:22:27 AEST 2018]; root of context hierarchy
+2018-04-05 10:22:34,766 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:22:34,768 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:22:34,776 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:33:25,422 - Starting OrderServiceImplTest on Asus with PID 10056 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:33:25,423 - No active profile set, falling back to default profiles: default
+2018-04-05 10:33:25,535 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:33:25 AEST 2018]; root of context hierarchy
+2018-04-05 10:33:28,193 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac9cc0b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:33:28,689 - HikariPool-1 - Starting...
+2018-04-05 10:33:29,200 - HikariPool-1 - Start completed.
+2018-04-05 10:33:29,311 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:33:29,363 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:33:29,528 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:33:29,531 - HHH000206: hibernate.properties not found
+2018-04-05 10:33:29,606 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:33:29,841 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:33:31,163 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:33:33,682 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:33:25 AEST 2018]; root of context hierarchy
+2018-04-05 10:33:33,795 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:33:33,886 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:33:33,900 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:33:33,903 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:33:34,004 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:33:34,004 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:33:34,113 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:33:34,638 - Started OrderServiceImplTest in 10.575 seconds (JVM running for 12.438)
+2018-04-05 10:33:35,045 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 10:33:35,352 - result of query for order with id 1522887685034642470 :OrderDTO(orderId=1522887685034642470, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=50.00, orderStatus=0, payStatus=0, createTime=2018-04-05 10:21:25.0, updateTime=2018-04-05 10:21:25.0, orderDetailList=[OrderDetail(detailId=1522887685136208058, orderId=1522887685034642470, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 10:33:35,364 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1c39680d: startup date [Thu Apr 05 10:33:25 AEST 2018]; root of context hierarchy
+2018-04-05 10:33:35,373 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:33:35,374 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:33:35,387 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:45:22,907 - Starting OrderServiceImplTest on Asus with PID 10076 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:45:22,908 - No active profile set, falling back to default profiles: default
+2018-04-05 10:45:23,102 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5be82d43: startup date [Thu Apr 05 10:45:23 AEST 2018]; root of context hierarchy
+2018-04-05 10:45:26,363 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26dd40b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:45:26,874 - HikariPool-1 - Starting...
+2018-04-05 10:45:27,323 - HikariPool-1 - Start completed.
+2018-04-05 10:45:27,430 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:45:27,476 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:45:27,682 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:45:27,684 - HHH000206: hibernate.properties not found
+2018-04-05 10:45:27,781 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:45:28,124 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:45:29,911 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:45:32,581 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5be82d43: startup date [Thu Apr 05 10:45:23 AEST 2018]; root of context hierarchy
+2018-04-05 10:45:32,713 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:45:32,801 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:45:32,808 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:45:32,810 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:45:32,918 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:45:32,918 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:45:33,032 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:45:33,747 - Started OrderServiceImplTest in 12.447 seconds (JVM running for 14.749)
+2018-04-05 10:45:34,133 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 10:45:34,407 - result of query for order with id 1522887685034642470 :OrderDTO(orderId=1522887685034642470, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=50.00, orderStatus=0, payStatus=0, createTime=2018-04-05 10:21:25.0, updateTime=2018-04-05 10:21:25.0, orderDetailList=[OrderDetail(detailId=1522887685136208058, orderId=1522887685034642470, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 10:45:34,418 - Closing org.springframework.web.context.support.GenericWebApplicationContext@5be82d43: startup date [Thu Apr 05 10:45:23 AEST 2018]; root of context hierarchy
+2018-04-05 10:45:34,424 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:45:34,426 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:45:34,437 - HikariPool-1 - Shutdown completed.
+2018-04-05 10:45:46,209 - Starting OrderServiceImplTest on Asus with PID 8120 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:45:46,210 - No active profile set, falling back to default profiles: default
+2018-04-05 10:45:46,279 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@600b0b7: startup date [Thu Apr 05 10:45:46 AEST 2018]; root of context hierarchy
+2018-04-05 10:45:48,806 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c73233e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:45:49,214 - HikariPool-1 - Starting...
+2018-04-05 10:45:49,703 - HikariPool-1 - Start completed.
+2018-04-05 10:45:49,812 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:45:49,847 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:45:50,005 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:45:50,008 - HHH000206: hibernate.properties not found
+2018-04-05 10:45:50,133 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:45:50,421 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:45:51,702 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:45:53,897 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@600b0b7: startup date [Thu Apr 05 10:45:46 AEST 2018]; root of context hierarchy
+2018-04-05 10:45:54,002 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:45:54,087 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:45:54,093 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:45:54,094 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:45:54,206 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:45:54,206 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:45:54,306 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:45:54,945 - Started OrderServiceImplTest in 10.24 seconds (JVM running for 12.127)
+2018-04-05 10:45:55,200 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 10:46:31,969 - Starting OrderServiceImplTest on Asus with PID 1968 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 10:46:31,970 - No active profile set, falling back to default profiles: default
+2018-04-05 10:46:32,048 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Apr 05 10:46:32 AEST 2018]; root of context hierarchy
+2018-04-05 10:46:34,167 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d99ff66a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 10:46:34,601 - HikariPool-1 - Starting...
+2018-04-05 10:46:34,981 - HikariPool-1 - Start completed.
+2018-04-05 10:46:35,070 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:46:35,110 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 10:46:35,344 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 10:46:35,346 - HHH000206: hibernate.properties not found
+2018-04-05 10:46:35,414 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 10:46:35,686 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 10:46:36,800 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:46:38,667 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Apr 05 10:46:32 AEST 2018]; root of context hierarchy
+2018-04-05 10:46:38,742 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 10:46:38,814 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 10:46:38,821 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 10:46:38,822 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 10:46:38,895 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:46:38,895 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:46:38,971 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 10:46:39,350 - Started OrderServiceImplTest in 9.078 seconds (JVM running for 10.739)
+2018-04-05 10:46:39,549 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 10:46:39,887 - Closing org.springframework.web.context.support.GenericWebApplicationContext@24c4ddae: startup date [Thu Apr 05 10:46:32 AEST 2018]; root of context hierarchy
+2018-04-05 10:46:39,896 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 10:46:39,897 - HikariPool-1 - Shutdown initiated...
+2018-04-05 10:46:39,905 - HikariPool-1 - Shutdown completed.
+2018-04-05 11:33:47,873 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m27s436ms981µs19ns).
+2018-04-05 14:36:38,684 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2m48s532ms642µs98ns).
+2018-04-05 14:36:39,499 - Starting OrderServiceImplTest on Asus with PID 9884 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 14:36:39,500 - No active profile set, falling back to default profiles: default
+2018-04-05 14:36:39,668 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6a57ae10: startup date [Thu Apr 05 14:36:39 AEST 2018]; root of context hierarchy
+2018-04-05 14:36:42,830 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e54789d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 14:36:43,257 - HikariPool-1 - Starting...
+2018-04-05 14:36:43,735 - HikariPool-1 - Start completed.
+2018-04-05 14:36:43,824 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:36:43,851 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 14:36:44,002 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 14:36:44,005 - HHH000206: hibernate.properties not found
+2018-04-05 14:36:44,065 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 14:36:44,243 - Closing org.springframework.web.context.support.GenericWebApplicationContext@600b0b7: startup date [Thu Apr 05 10:45:46 AEST 2018]; root of context hierarchy
+2018-04-05 14:36:44,262 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:36:44,275 - HikariPool-1 - Shutdown initiated...
+2018-04-05 14:36:56,341 - Starting OrderServiceImplTest on Asus with PID 6440 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 14:36:56,342 - No active profile set, falling back to default profiles: default
+2018-04-05 14:36:56,411 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 14:36:56 AEST 2018]; root of context hierarchy
+2018-04-05 14:36:58,241 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1289cc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 14:36:58,734 - HikariPool-1 - Starting...
+2018-04-05 14:36:59,141 - HikariPool-1 - Start completed.
+2018-04-05 14:36:59,222 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:36:59,250 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 14:36:59,392 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 14:36:59,398 - HHH000206: hibernate.properties not found
+2018-04-05 14:36:59,460 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 14:36:59,709 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 14:37:00,856 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:37:02,697 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 14:36:56 AEST 2018]; root of context hierarchy
+2018-04-05 14:37:02,781 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 14:37:02,852 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 14:37:02,858 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 14:37:02,860 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 14:37:02,939 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:37:02,940 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:37:03,008 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:37:03,423 - Started OrderServiceImplTest in 9.223 seconds (JVM running for 10.843)
+2018-04-05 14:37:03,771 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 14:37:04,146 - Closing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 14:36:56 AEST 2018]; root of context hierarchy
+2018-04-05 14:37:04,152 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:37:04,155 - HikariPool-1 - Shutdown initiated...
+2018-04-05 14:37:04,164 - HikariPool-1 - Shutdown completed.
+2018-04-05 14:40:03,914 - Starting OrderServiceImplTest on Asus with PID 10836 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 14:40:03,915 - No active profile set, falling back to default profiles: default
+2018-04-05 14:40:04,006 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a82c5f1: startup date [Thu Apr 05 14:40:04 AEST 2018]; root of context hierarchy
+2018-04-05 14:40:06,691 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$77f0a62e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 14:40:07,266 - HikariPool-1 - Starting...
+2018-04-05 14:40:07,779 - HikariPool-1 - Start completed.
+2018-04-05 14:40:07,890 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:40:07,934 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 14:40:08,097 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 14:40:08,100 - HHH000206: hibernate.properties not found
+2018-04-05 14:40:08,169 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 14:40:08,433 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 14:40:09,775 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:40:11,848 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@a82c5f1: startup date [Thu Apr 05 14:40:04 AEST 2018]; root of context hierarchy
+2018-04-05 14:40:11,915 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 14:40:11,990 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 14:40:11,998 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 14:40:11,999 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 14:40:12,055 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:40:12,055 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:40:12,134 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:40:12,551 - Started OrderServiceImplTest in 10.772 seconds (JVM running for 12.82)
+2018-04-05 14:40:12,852 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 14:40:13,141 - [Cancel orders] Order status is incorrect and cannot be cancelled, orderId=1522887685034642470, orderStatus=2
+2018-04-05 14:40:13,162 - Closing org.springframework.web.context.support.GenericWebApplicationContext@a82c5f1: startup date [Thu Apr 05 14:40:04 AEST 2018]; root of context hierarchy
+2018-04-05 14:40:13,170 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:40:13,171 - HikariPool-1 - Shutdown initiated...
+2018-04-05 14:40:13,179 - HikariPool-1 - Shutdown completed.
+2018-04-05 14:43:08,354 - Starting OrderServiceImplTest on Asus with PID 11388 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 14:43:08,355 - No active profile set, falling back to default profiles: default
+2018-04-05 14:43:08,435 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a7b6f69: startup date [Thu Apr 05 14:43:08 AEST 2018]; root of context hierarchy
+2018-04-05 14:43:10,621 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 14:43:11,035 - HikariPool-1 - Starting...
+2018-04-05 14:43:11,503 - HikariPool-1 - Start completed.
+2018-04-05 14:43:11,641 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:43:11,681 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 14:43:11,855 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 14:43:11,858 - HHH000206: hibernate.properties not found
+2018-04-05 14:43:11,951 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 14:43:12,199 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 14:43:13,395 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:43:16,893 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a7b6f69: startup date [Thu Apr 05 14:43:08 AEST 2018]; root of context hierarchy
+2018-04-05 14:43:16,990 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 14:43:17,062 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 14:43:17,069 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 14:43:17,070 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 14:43:17,170 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:43:17,170 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:43:17,274 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:43:17,871 - Started OrderServiceImplTest in 11.14 seconds (JVM running for 13.021)
+2018-04-05 14:43:18,188 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 14:44:01,463 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s857ms153µs121ns).
+2018-04-05 14:45:43,901 - Starting OrderServiceImplTest on Asus with PID 10108 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 14:45:44,018 - No active profile set, falling back to default profiles: default
+2018-04-05 14:45:44,081 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@766653e6: startup date [Thu Apr 05 14:45:44 AEST 2018]; root of context hierarchy
+2018-04-05 14:45:46,363 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e4d60a40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 14:45:46,714 - HikariPool-1 - Starting...
+2018-04-05 14:45:47,055 - HikariPool-1 - Start completed.
+2018-04-05 14:45:47,296 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:45:47,355 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 14:45:47,532 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 14:45:47,535 - HHH000206: hibernate.properties not found
+2018-04-05 14:45:47,600 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 14:45:47,803 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 14:45:48,878 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:45:50,979 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@766653e6: startup date [Thu Apr 05 14:45:44 AEST 2018]; root of context hierarchy
+2018-04-05 14:45:51,065 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 14:45:51,135 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 14:45:51,141 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 14:45:51,143 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 14:45:51,219 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:45:51,219 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:45:51,291 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:45:51,690 - Started OrderServiceImplTest in 9.368 seconds (JVM running for 10.989)
+2018-04-05 14:45:51,992 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 14:45:52,354 - Closing org.springframework.web.context.support.GenericWebApplicationContext@766653e6: startup date [Thu Apr 05 14:45:44 AEST 2018]; root of context hierarchy
+2018-04-05 14:45:52,360 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 14:45:52,361 - HikariPool-1 - Shutdown initiated...
+2018-04-05 14:45:52,368 - HikariPool-1 - Shutdown completed.
+2018-04-05 14:58:06,455 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m42s713ms72µs748ns).
+2018-04-05 15:00:25,697 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m19s240ms863µs912ns).
+2018-04-05 15:00:27,802 - Starting OrderServiceImplTest on Asus with PID 3864 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:00:27,803 - No active profile set, falling back to default profiles: default
+2018-04-05 15:00:27,892 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:00:27 AEST 2018]; root of context hierarchy
+2018-04-05 15:00:30,018 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c54a83e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:00:30,491 - HikariPool-1 - Starting...
+2018-04-05 15:00:30,959 - HikariPool-1 - Start completed.
+2018-04-05 15:00:31,042 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:00:31,069 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:00:31,224 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:00:31,225 - HHH000206: hibernate.properties not found
+2018-04-05 15:00:31,285 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:00:31,539 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:00:32,706 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:00:34,805 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:00:27 AEST 2018]; root of context hierarchy
+2018-04-05 15:00:34,891 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:00:34,954 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:00:34,962 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:00:34,963 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:00:35,023 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:00:35,023 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:00:35,099 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:00:35,570 - Started OrderServiceImplTest in 10.363 seconds (JVM running for 12.266)
+2018-04-05 15:00:35,905 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:00:36,130 - [Finish the order] , order cannot be finished due to incorrect status. orderId=1522887685034642470, orderStatus=2
+2018-04-05 15:00:36,145 - Closing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:00:27 AEST 2018]; root of context hierarchy
+2018-04-05 15:00:36,152 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:00:36,153 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:00:36,160 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:01:03,709 - Starting OrderServiceImplTest on Asus with PID 11540 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:01:03,710 - No active profile set, falling back to default profiles: default
+2018-04-05 15:01:03,792 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:01:03 AEST 2018]; root of context hierarchy
+2018-04-05 15:01:06,182 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd76c88d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:01:06,574 - HikariPool-1 - Starting...
+2018-04-05 15:01:06,968 - HikariPool-1 - Start completed.
+2018-04-05 15:01:07,052 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:01:07,091 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:01:07,242 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:01:07,247 - HHH000206: hibernate.properties not found
+2018-04-05 15:01:07,311 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:01:07,568 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:01:08,788 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:01:10,692 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:01:03 AEST 2018]; root of context hierarchy
+2018-04-05 15:01:10,874 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:01:10,985 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:01:10,997 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:01:11,000 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:01:11,183 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:01:11,192 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:01:11,301 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:01:11,849 - Started OrderServiceImplTest in 9.834 seconds (JVM running for 11.664)
+2018-04-05 15:01:12,176 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:01:12,403 - [Finish the order] , order cannot be finished due to incorrect status. orderId=1522887685034642470, orderStatus=2
+2018-04-05 15:01:12,440 - Closing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:01:03 AEST 2018]; root of context hierarchy
+2018-04-05 15:01:12,448 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:01:12,449 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:01:12,461 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:01:37,696 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s997ms836µs721ns).
+2018-04-05 15:01:43,719 - Starting OrderServiceImplTest on Asus with PID 8260 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:01:43,720 - No active profile set, falling back to default profiles: default
+2018-04-05 15:01:43,802 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@54f5f647: startup date [Thu Apr 05 15:01:43 AEST 2018]; root of context hierarchy
+2018-04-05 15:01:45,929 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cd25998] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:01:46,355 - HikariPool-1 - Starting...
+2018-04-05 15:01:46,767 - HikariPool-1 - Start completed.
+2018-04-05 15:01:46,852 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:01:46,878 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:01:47,012 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:01:47,014 - HHH000206: hibernate.properties not found
+2018-04-05 15:01:47,074 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:01:47,340 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:01:48,560 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:01:50,739 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@54f5f647: startup date [Thu Apr 05 15:01:43 AEST 2018]; root of context hierarchy
+2018-04-05 15:01:50,853 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:01:50,933 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:01:50,939 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:01:50,941 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:01:51,038 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:01:51,038 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:01:51,139 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:01:51,772 - Started OrderServiceImplTest in 10.017 seconds (JVM running for 12.248)
+2018-04-05 15:01:52,129 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:01:52,400 - [Finish the order] , order cannot be finished due to incorrect status. orderId=1522887685034642470, orderStatus=2
+2018-04-05 15:01:52,422 - Closing org.springframework.web.context.support.GenericWebApplicationContext@54f5f647: startup date [Thu Apr 05 15:01:43 AEST 2018]; root of context hierarchy
+2018-04-05 15:01:52,434 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:01:52,435 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:01:52,450 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:02:15,122 - Starting OrderServiceImplTest on Asus with PID 9644 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:02:15,123 - No active profile set, falling back to default profiles: default
+2018-04-05 15:02:15,179 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c8bdd5b: startup date [Thu Apr 05 15:02:15 AEST 2018]; root of context hierarchy
+2018-04-05 15:02:17,301 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6df2426e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:02:17,704 - HikariPool-1 - Starting...
+2018-04-05 15:02:18,198 - HikariPool-1 - Start completed.
+2018-04-05 15:02:18,278 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:02:18,304 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:02:18,440 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:02:18,442 - HHH000206: hibernate.properties not found
+2018-04-05 15:02:18,507 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:02:18,775 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:02:20,143 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:02:22,528 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3c8bdd5b: startup date [Thu Apr 05 15:02:15 AEST 2018]; root of context hierarchy
+2018-04-05 15:02:22,632 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:02:22,707 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:02:22,713 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:02:22,714 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:02:22,820 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:02:22,821 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:02:22,931 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:02:23,569 - Started OrderServiceImplTest in 10.402 seconds (JVM running for 12.38)
+2018-04-05 15:02:23,922 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:03:04,751 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s450ms704µs337ns).
+2018-04-05 15:03:43,639 - [Finish the order] , order cannot be finished due to incorrect status. orderId=1522887685034642470, orderStatus=2
+2018-04-05 15:04:16,222 - Starting OrderServiceImplTest on Asus with PID 6456 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:04:16,225 - No active profile set, falling back to default profiles: default
+2018-04-05 15:04:16,420 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1162410a: startup date [Thu Apr 05 15:04:16 AEST 2018]; root of context hierarchy
+2018-04-05 15:04:18,364 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2ed0483e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:04:18,784 - HikariPool-1 - Starting...
+2018-04-05 15:04:19,198 - HikariPool-1 - Start completed.
+2018-04-05 15:04:19,289 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:04:19,320 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:04:19,439 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:04:19,442 - HHH000206: hibernate.properties not found
+2018-04-05 15:04:19,512 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:04:19,777 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:04:20,978 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:04:23,121 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1162410a: startup date [Thu Apr 05 15:04:16 AEST 2018]; root of context hierarchy
+2018-04-05 15:04:23,227 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:04:23,313 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:04:23,321 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:04:23,323 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:04:23,434 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:04:23,434 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:04:23,540 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:04:24,204 - Started OrderServiceImplTest in 9.719 seconds (JVM running for 11.648)
+2018-04-05 15:04:24,542 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:04:43,888 - Closing org.springframework.web.context.support.GenericWebApplicationContext@1162410a: startup date [Thu Apr 05 15:04:16 AEST 2018]; root of context hierarchy
+2018-04-05 15:04:43,897 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:04:43,898 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:04:43,905 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:23:58,760 - Starting OrderServiceImplTest on Asus with PID 6984 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:23:58,761 - No active profile set, falling back to default profiles: default
+2018-04-05 15:23:58,818 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@28b46423: startup date [Thu Apr 05 15:23:58 AEST 2018]; root of context hierarchy
+2018-04-05 15:24:01,478 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd76c88d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:24:02,132 - HikariPool-1 - Starting...
+2018-04-05 15:24:02,547 - HikariPool-1 - Start completed.
+2018-04-05 15:24:02,641 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:24:02,795 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:24:02,932 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:24:02,934 - HHH000206: hibernate.properties not found
+2018-04-05 15:24:02,993 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:24:03,238 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:24:04,510 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:24:06,879 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@28b46423: startup date [Thu Apr 05 15:23:58 AEST 2018]; root of context hierarchy
+2018-04-05 15:24:06,978 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:24:07,055 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:24:07,061 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:24:07,064 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:24:07,151 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:24:07,151 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:24:07,238 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:24:07,699 - Started OrderServiceImplTest in 10.148 seconds (JVM running for 11.976)
+2018-04-05 15:24:08,190 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:24:08,491 - [Pay the order] , order cannot be paid due to incorrect status. orderId=1522887685034642470, orderStatus=1
+2018-04-05 15:24:08,516 - Closing org.springframework.web.context.support.GenericWebApplicationContext@28b46423: startup date [Thu Apr 05 15:23:58 AEST 2018]; root of context hierarchy
+2018-04-05 15:24:08,523 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:24:08,525 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:24:08,533 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:24:55,777 - Starting OrderServiceImplTest on Asus with PID 6884 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:24:55,778 - No active profile set, falling back to default profiles: default
+2018-04-05 15:24:55,946 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6b6776cb: startup date [Thu Apr 05 15:24:55 AEST 2018]; root of context hierarchy
+2018-04-05 15:24:58,169 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f47c74d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:24:58,561 - HikariPool-1 - Starting...
+2018-04-05 15:24:59,002 - HikariPool-1 - Start completed.
+2018-04-05 15:24:59,090 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:24:59,117 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:24:59,240 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:24:59,242 - HHH000206: hibernate.properties not found
+2018-04-05 15:24:59,298 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:24:59,483 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:25:00,523 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:25:02,404 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6b6776cb: startup date [Thu Apr 05 15:24:55 AEST 2018]; root of context hierarchy
+2018-04-05 15:25:02,472 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:25:02,531 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:25:02,538 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:25:02,539 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:25:02,602 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:25:02,602 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:25:02,674 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:25:03,039 - Started OrderServiceImplTest in 8.752 seconds (JVM running for 10.36)
+2018-04-05 15:25:03,386 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:25:03,669 - [Pay the order] , the pay status is incorrect, orderDTO=OrderDTO(orderId=1522887685034642470, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=50.00, orderStatus=0, payStatus=0, createTime=2018-04-05 10:21:25.0, updateTime=2018-04-05 15:24:45.0, orderDetailList=[OrderDetail(detailId=1522887685136208058, orderId=1522887685034642470, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 15:25:03,689 - Closing org.springframework.web.context.support.GenericWebApplicationContext@6b6776cb: startup date [Thu Apr 05 15:24:55 AEST 2018]; root of context hierarchy
+2018-04-05 15:25:03,695 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:25:03,696 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:25:03,755 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:27:38,668 - Starting OrderServiceImplTest on Asus with PID 11536 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:27:38,670 - No active profile set, falling back to default profiles: default
+2018-04-05 15:27:38,740 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1edb61b1: startup date [Thu Apr 05 15:27:38 AEST 2018]; root of context hierarchy
+2018-04-05 15:27:41,047 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d34f59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:27:41,458 - HikariPool-1 - Starting...
+2018-04-05 15:27:41,865 - HikariPool-1 - Start completed.
+2018-04-05 15:27:41,945 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:27:41,967 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:27:42,129 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:27:42,132 - HHH000206: hibernate.properties not found
+2018-04-05 15:27:42,204 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:27:42,471 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:27:43,699 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:27:45,964 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1edb61b1: startup date [Thu Apr 05 15:27:38 AEST 2018]; root of context hierarchy
+2018-04-05 15:27:46,068 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:27:46,137 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:27:46,144 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:27:46,146 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:27:46,244 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:27:46,244 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:27:46,351 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:27:46,982 - Started OrderServiceImplTest in 12.933 seconds (JVM running for 14.796)
+2018-04-05 15:27:47,308 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:29:08,504 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s30ms380µs615ns).
+2018-04-05 15:29:08,511 - [Pay the order] , the pay status is incorrect, orderDTO=OrderDTO(orderId=1522887685034642470, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=50.00, orderStatus=0, payStatus=0, createTime=2018-04-05 10:21:25.0, updateTime=2018-04-05 15:24:45.0, orderDetailList=[OrderDetail(detailId=1522887685136208058, orderId=1522887685034642470, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 15:29:27,213 - Starting OrderServiceImplTest on Asus with PID 7976 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:29:27,215 - No active profile set, falling back to default profiles: default
+2018-04-05 15:29:27,713 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:29:27 AEST 2018]; root of context hierarchy
+2018-04-05 15:29:30,460 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db2b2bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:29:30,853 - HikariPool-1 - Starting...
+2018-04-05 15:29:31,283 - HikariPool-1 - Start completed.
+2018-04-05 15:29:31,374 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:29:31,400 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:29:31,564 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:29:31,567 - HHH000206: hibernate.properties not found
+2018-04-05 15:29:31,640 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:29:31,908 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:29:33,140 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:29:35,288 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:29:27 AEST 2018]; root of context hierarchy
+2018-04-05 15:29:35,395 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:29:35,472 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:29:35,478 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:29:35,479 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:29:35,566 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:29:35,566 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:29:35,653 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:29:36,220 - Started OrderServiceImplTest in 10.528 seconds (JVM running for 12.274)
+2018-04-05 15:29:36,641 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:29:36,973 - Closing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:29:27 AEST 2018]; root of context hierarchy
+2018-04-05 15:29:36,982 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:29:36,983 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:29:36,991 - HikariPool-1 - Shutdown completed.
+2018-04-05 15:29:54,929 - Starting OrderServiceImplTest on Asus with PID 11480 (started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 15:29:54,930 - No active profile set, falling back to default profiles: default
+2018-04-05 15:29:55,041 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:29:55 AEST 2018]; root of context hierarchy
+2018-04-05 15:29:57,588 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db2b2bf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 15:29:58,075 - HikariPool-1 - Starting...
+2018-04-05 15:29:58,471 - HikariPool-1 - Start completed.
+2018-04-05 15:29:58,551 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:29:58,573 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 15:29:58,713 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 15:29:58,715 - HHH000206: hibernate.properties not found
+2018-04-05 15:29:58,783 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 15:29:59,043 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 15:30:00,251 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:30:02,332 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:29:55 AEST 2018]; root of context hierarchy
+2018-04-05 15:30:02,417 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 15:30:02,481 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 15:30:02,488 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 15:30:02,490 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 15:30:02,561 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:30:02,561 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:30:02,627 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 15:30:03,028 - Started OrderServiceImplTest in 10.286 seconds (JVM running for 11.994)
+2018-04-05 15:30:03,329 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 15:30:03,552 - [Pay the order] , the pay status is incorrect, orderDTO=OrderDTO(orderId=1522887685034642470, buyerName=Tony Yao, buyerPhone=15039485848, buyerAddress=SouthBank, buyerOpenid=1101110, orderAmount=50.00, orderStatus=0, payStatus=1, createTime=2018-04-05 10:21:25.0, updateTime=2018-04-05 15:29:36.0, orderDetailList=[OrderDetail(detailId=1522887685136208058, orderId=1522887685034642470, productId=1235, productName=Chicken Pizza, productPrice=5.00, productQuantity=10, productIcon=yyyyy.jpg)])
+2018-04-05 15:30:03,575 - Closing org.springframework.web.context.support.GenericWebApplicationContext@43599640: startup date [Thu Apr 05 15:29:55 AEST 2018]; root of context hierarchy
+2018-04-05 15:30:03,584 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 15:30:03,586 - HikariPool-1 - Shutdown initiated...
+2018-04-05 15:30:03,596 - HikariPool-1 - Shutdown completed.
+2018-04-05 16:44:43,671 - Starting SellApplication on Asus with PID 9400 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 16:44:43,951 - No active profile set, falling back to default profiles: default
+2018-04-05 16:44:46,252 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61322f9d: startup date [Thu Apr 05 16:44:46 AEST 2018]; root of context hierarchy
+2018-04-05 16:45:01,061 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af3bdf85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 16:45:04,290 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 16:45:04,534 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 16:45:04,619 - Starting service [Tomcat]
+2018-04-05 16:45:04,620 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 16:45:04,702 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 16:45:05,629 - Initializing Spring embedded WebApplicationContext
+2018-04-05 16:45:05,629 - Root WebApplicationContext: initialization completed in 19377 ms
+2018-04-05 16:45:06,098 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 16:45:06,104 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 16:45:06,104 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 16:45:06,104 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 16:45:06,104 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 16:45:07,435 - HikariPool-1 - Starting...
+2018-04-05 16:45:08,687 - HikariPool-1 - Start completed.
+2018-04-05 16:45:09,236 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 16:45:09,493 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 16:45:13,084 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 16:45:13,086 - HHH000206: hibernate.properties not found
+2018-04-05 16:45:14,220 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 16:45:16,048 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 16:45:22,862 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 16:45:28,284 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61322f9d: startup date [Thu Apr 05 16:44:46 AEST 2018]; root of context hierarchy
+2018-04-05 16:45:28,646 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 16:45:28,997 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 16:45:29,001 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 16:45:29,005 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 16:45:29,006 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 16:45:29,109 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 16:45:29,109 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 16:45:29,506 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 16:45:30,166 - Registering beans for JMX exposure on startup
+2018-04-05 16:45:30,168 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 16:45:30,180 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 16:45:30,402 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 16:45:30,418 - Using a shared selector for servlet write/read
+2018-04-05 16:45:30,485 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 16:45:30,489 - Started SellApplication in 58.979 seconds (JVM running for 79.638)
+2018-04-05 16:55:56,540 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 16:55:56,540 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 16:55:56,728 - FrameworkServlet 'dispatcherServlet': initialization completed in 188 ms
+2018-04-05 17:00:13,691 - Starting SellApplication on Asus with PID 3040 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 17:00:13,831 - No active profile set, falling back to default profiles: default
+2018-04-05 17:00:14,277 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Thu Apr 05 17:00:14 AEST 2018]; root of context hierarchy
+2018-04-05 17:00:18,243 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$615b96d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 17:00:19,206 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 17:00:19,280 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 17:00:19,345 - Starting service [Tomcat]
+2018-04-05 17:00:19,345 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 17:00:19,394 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 17:00:19,748 - Initializing Spring embedded WebApplicationContext
+2018-04-05 17:00:19,749 - Root WebApplicationContext: initialization completed in 5472 ms
+2018-04-05 17:00:20,062 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 17:00:20,068 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 17:00:20,069 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 17:00:20,069 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 17:00:20,069 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 17:00:20,787 - HikariPool-1 - Starting...
+2018-04-05 17:00:21,326 - HikariPool-1 - Start completed.
+2018-04-05 17:00:21,660 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 17:00:21,854 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 17:00:22,694 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 17:00:22,696 - HHH000206: hibernate.properties not found
+2018-04-05 17:00:22,931 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 17:00:24,159 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 17:00:28,358 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 17:00:30,554 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@752325ad: startup date [Thu Apr 05 17:00:14 AEST 2018]; root of context hierarchy
+2018-04-05 17:00:30,607 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 17:00:30,735 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 17:00:30,738 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 17:00:30,744 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 17:00:30,745 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 17:00:30,827 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:00:30,828 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:00:30,898 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:00:31,688 - Registering beans for JMX exposure on startup
+2018-04-05 17:00:31,690 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 17:00:31,700 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 17:00:31,753 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 17:00:31,777 - Using a shared selector for servlet write/read
+2018-04-05 17:00:31,931 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 17:00:31,935 - Started SellApplication in 23.337 seconds (JVM running for 41.178)
+2018-04-05 17:00:43,023 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 17:00:43,024 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 17:00:43,055 - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2018-04-05 17:04:05,916 - Starting SellApplication on Asus with PID 3212 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 17:04:05,988 - No active profile set, falling back to default profiles: default
+2018-04-05 17:04:06,082 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@49d3c823: startup date [Thu Apr 05 17:04:06 AEST 2018]; root of context hierarchy
+2018-04-05 17:04:07,956 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94ba1aaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 17:04:08,487 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 17:04:08,511 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 17:04:08,530 - Starting service [Tomcat]
+2018-04-05 17:04:08,530 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 17:04:08,537 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 17:04:08,729 - Initializing Spring embedded WebApplicationContext
+2018-04-05 17:04:08,730 - Root WebApplicationContext: initialization completed in 2648 ms
+2018-04-05 17:04:08,971 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 17:04:08,982 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 17:04:08,983 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 17:04:08,983 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 17:04:08,983 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 17:04:09,243 - HikariPool-1 - Starting...
+2018-04-05 17:04:09,508 - HikariPool-1 - Start completed.
+2018-04-05 17:04:09,764 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 17:04:09,796 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 17:04:09,924 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 17:04:09,925 - HHH000206: hibernate.properties not found
+2018-04-05 17:04:10,002 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 17:04:10,224 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 17:04:11,193 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 17:04:12,582 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@49d3c823: startup date [Thu Apr 05 17:04:06 AEST 2018]; root of context hierarchy
+2018-04-05 17:04:12,637 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 17:04:12,707 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 17:04:12,710 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 17:04:12,717 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 17:04:12,719 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 17:04:12,813 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:04:12,814 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:04:12,908 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:04:13,508 - Registering beans for JMX exposure on startup
+2018-04-05 17:04:13,510 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 17:04:13,520 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 17:04:13,540 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 17:04:13,560 - Using a shared selector for servlet write/read
+2018-04-05 17:04:13,585 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 17:04:13,588 - Started SellApplication in 8.608 seconds (JVM running for 11.517)
+2018-04-05 17:04:52,425 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 17:04:52,425 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 17:04:52,453 - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-04-05 17:06:23,312 - Starting SellApplication on Asus with PID 5040 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 17:06:23,317 - No active profile set, falling back to default profiles: default
+2018-04-05 17:06:23,382 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45c7e403: startup date [Thu Apr 05 17:06:23 AEST 2018]; root of context hierarchy
+2018-04-05 17:06:24,843 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4be3164a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 17:06:25,212 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 17:06:25,229 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 17:06:25,240 - Starting service [Tomcat]
+2018-04-05 17:06:25,241 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 17:06:25,246 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 17:06:25,378 - Initializing Spring embedded WebApplicationContext
+2018-04-05 17:06:25,379 - Root WebApplicationContext: initialization completed in 1997 ms
+2018-04-05 17:06:25,558 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 17:06:25,563 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 17:06:25,563 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 17:06:25,563 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 17:06:25,564 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 17:06:25,755 - HikariPool-1 - Starting...
+2018-04-05 17:06:26,000 - HikariPool-1 - Start completed.
+2018-04-05 17:06:26,055 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 17:06:26,071 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 17:06:26,332 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 17:06:26,335 - HHH000206: hibernate.properties not found
+2018-04-05 17:06:26,398 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 17:06:26,581 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 17:06:27,274 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 17:06:28,348 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45c7e403: startup date [Thu Apr 05 17:06:23 AEST 2018]; root of context hierarchy
+2018-04-05 17:06:28,391 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 17:06:28,437 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 17:06:28,442 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 17:06:28,451 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 17:06:28,453 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 17:06:28,515 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:06:28,516 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:06:28,596 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 17:06:28,947 - Registering beans for JMX exposure on startup
+2018-04-05 17:06:28,948 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 17:06:28,955 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 17:06:28,974 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 17:06:28,987 - Using a shared selector for servlet write/read
+2018-04-05 17:06:29,008 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 17:06:29,011 - Started SellApplication in 7.3 seconds (JVM running for 8.871)
+2018-04-05 17:06:43,230 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 17:06:43,231 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 17:06:43,250 - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-04-05 18:05:35,647 - Starting SellApplication on Asus with PID 10012 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:05:35,652 - No active profile set, falling back to default profiles: default
+2018-04-05 18:05:35,709 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6497b078: startup date [Thu Apr 05 18:05:35 AEST 2018]; root of context hierarchy
+2018-04-05 18:05:38,128 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fd34788] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:05:38,541 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:05:38,560 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:05:38,573 - Starting service [Tomcat]
+2018-04-05 18:05:38,573 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:05:38,579 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:05:38,721 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:05:38,722 - Root WebApplicationContext: initialization completed in 3013 ms
+2018-04-05 18:05:38,958 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:05:38,966 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:05:38,966 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:05:38,966 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:05:38,966 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:05:39,186 - HikariPool-1 - Starting...
+2018-04-05 18:05:39,470 - HikariPool-1 - Start completed.
+2018-04-05 18:05:39,537 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:05:39,777 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:05:39,901 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:05:39,903 - HHH000206: hibernate.properties not found
+2018-04-05 18:05:39,959 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:05:40,133 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:05:41,065 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:05:42,422 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6497b078: startup date [Thu Apr 05 18:05:35 AEST 2018]; root of context hierarchy
+2018-04-05 18:05:42,475 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:05:42,527 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:05:42,529 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:05:42,532 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:05:42,538 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:05:42,539 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:05:42,595 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:05:42,595 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:05:42,666 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:05:43,062 - Registering beans for JMX exposure on startup
+2018-04-05 18:05:43,064 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:05:43,075 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:05:43,093 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:05:43,110 - Using a shared selector for servlet write/read
+2018-04-05 18:05:43,132 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:05:43,136 - Started SellApplication in 8.472 seconds (JVM running for 10.359)
+2018-04-05 18:06:37,262 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:06:37,263 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:06:37,303 - FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2018-04-05 18:06:37,500 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 18:14:37,881 - Starting SellApplication on Asus with PID 11164 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:14:37,960 - No active profile set, falling back to default profiles: default
+2018-04-05 18:14:38,094 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710f4dc7: startup date [Thu Apr 05 18:14:38 AEST 2018]; root of context hierarchy
+2018-04-05 18:14:39,940 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a379188d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:14:40,328 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:14:40,343 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:14:40,355 - Starting service [Tomcat]
+2018-04-05 18:14:40,355 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:14:40,358 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:14:40,492 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:14:40,492 - Root WebApplicationContext: initialization completed in 2399 ms
+2018-04-05 18:14:40,651 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:14:40,658 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:14:40,658 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:14:40,658 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:14:40,658 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:14:40,836 - HikariPool-1 - Starting...
+2018-04-05 18:14:41,058 - HikariPool-1 - Start completed.
+2018-04-05 18:14:41,114 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:14:41,304 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:14:41,413 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:14:41,415 - HHH000206: hibernate.properties not found
+2018-04-05 18:14:41,471 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:14:41,626 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:14:42,262 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:14:43,370 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710f4dc7: startup date [Thu Apr 05 18:14:38 AEST 2018]; root of context hierarchy
+2018-04-05 18:14:43,411 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:14:43,465 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:14:43,466 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:14:43,468 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:14:43,471 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:14:43,472 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:14:43,518 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:14:43,518 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:14:43,587 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:14:44,003 - Registering beans for JMX exposure on startup
+2018-04-05 18:14:44,005 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:14:44,012 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:14:44,024 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:14:44,034 - Using a shared selector for servlet write/read
+2018-04-05 18:14:44,055 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:14:44,058 - Started SellApplication in 7.081 seconds (JVM running for 8.44)
+2018-04-05 18:15:02,494 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:15:02,494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:15:02,524 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-04-05 18:15:02,601 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 18:17:33,846 - Starting SellApplication on Asus with PID 11000 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:17:33,851 - No active profile set, falling back to default profiles: default
+2018-04-05 18:17:33,982 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b3ca52e: startup date [Thu Apr 05 18:17:33 AEST 2018]; root of context hierarchy
+2018-04-05 18:17:36,200 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8a54e1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:17:36,631 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:17:36,650 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:17:36,660 - Starting service [Tomcat]
+2018-04-05 18:17:36,662 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:17:36,667 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:17:36,817 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:17:36,817 - Root WebApplicationContext: initialization completed in 2835 ms
+2018-04-05 18:17:37,030 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:17:37,036 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:17:37,036 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:17:37,036 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:17:37,036 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:17:37,292 - HikariPool-1 - Starting...
+2018-04-05 18:17:37,569 - HikariPool-1 - Start completed.
+2018-04-05 18:17:37,628 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:17:37,834 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:17:37,954 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:17:37,956 - HHH000206: hibernate.properties not found
+2018-04-05 18:17:38,014 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:17:38,207 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:17:39,609 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:17:40,679 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b3ca52e: startup date [Thu Apr 05 18:17:33 AEST 2018]; root of context hierarchy
+2018-04-05 18:17:40,722 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:17:40,771 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:17:40,772 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:17:40,774 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:17:40,778 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:17:40,779 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:17:40,831 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:17:40,831 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:17:40,902 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:17:41,332 - Registering beans for JMX exposure on startup
+2018-04-05 18:17:41,334 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:17:41,345 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:17:41,359 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:17:41,403 - Using a shared selector for servlet write/read
+2018-04-05 18:17:41,425 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:17:41,428 - Started SellApplication in 8.561 seconds (JVM running for 9.957)
+2018-04-05 18:17:49,056 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:17:49,057 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:17:49,080 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-04-05 18:17:49,137 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 18:25:42,919 - Starting SellApplication on Asus with PID 9340 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:25:42,925 - No active profile set, falling back to default profiles: default
+2018-04-05 18:25:43,063 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70325e14: startup date [Thu Apr 05 18:25:43 AEST 2018]; root of context hierarchy
+2018-04-05 18:25:45,728 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c6448a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:25:46,149 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:25:46,168 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:25:46,184 - Starting service [Tomcat]
+2018-04-05 18:25:46,184 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:25:46,190 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:25:46,348 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:25:46,349 - Root WebApplicationContext: initialization completed in 3287 ms
+2018-04-05 18:25:46,533 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:25:46,540 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:25:46,540 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:25:46,540 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:25:46,540 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:25:46,749 - HikariPool-1 - Starting...
+2018-04-05 18:25:47,009 - HikariPool-1 - Start completed.
+2018-04-05 18:25:47,129 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:25:47,170 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:25:47,566 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:25:47,569 - HHH000206: hibernate.properties not found
+2018-04-05 18:25:47,638 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:25:47,865 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:25:48,893 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:25:50,143 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70325e14: startup date [Thu Apr 05 18:25:43 AEST 2018]; root of context hierarchy
+2018-04-05 18:25:50,194 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:25:50,252 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:25:50,254 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:25:50,254 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.tony.viewobject.ResultVO<com.tony.dto.OrderDTO> com.tony.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-04-05 18:25:50,255 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:25:50,261 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:25:50,262 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:25:50,314 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:25:50,314 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:25:50,373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:25:50,810 - Registering beans for JMX exposure on startup
+2018-04-05 18:25:50,812 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:25:50,820 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:25:50,837 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:25:50,855 - Using a shared selector for servlet write/read
+2018-04-05 18:25:50,874 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:25:50,878 - Started SellApplication in 9.071 seconds (JVM running for 10.743)
+2018-04-05 18:26:31,997 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:26:31,997 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:26:32,053 - FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2018-04-05 18:26:32,254 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 18:32:14,416 - Starting SellApplication on Asus with PID 10112 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:32:14,421 - No active profile set, falling back to default profiles: default
+2018-04-05 18:32:14,611 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41a2befb: startup date [Thu Apr 05 18:32:14 AEST 2018]; root of context hierarchy
+2018-04-05 18:32:17,016 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94113f8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:32:17,619 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:32:17,650 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:32:17,667 - Starting service [Tomcat]
+2018-04-05 18:32:17,668 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:32:17,688 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:32:17,882 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:32:17,883 - Root WebApplicationContext: initialization completed in 3272 ms
+2018-04-05 18:32:18,066 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:32:18,074 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:32:18,076 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:32:18,076 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:32:18,076 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:32:18,331 - HikariPool-1 - Starting...
+2018-04-05 18:32:18,593 - HikariPool-1 - Start completed.
+2018-04-05 18:32:18,645 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:32:18,839 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:32:18,994 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:32:18,996 - HHH000206: hibernate.properties not found
+2018-04-05 18:32:19,084 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:32:19,337 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:32:20,803 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:32:22,096 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41a2befb: startup date [Thu Apr 05 18:32:14 AEST 2018]; root of context hierarchy
+2018-04-05 18:32:22,148 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:32:22,199 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:32:22,201 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:32:22,202 - Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-04-05 18:32:22,202 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.tony.viewobject.ResultVO<com.tony.dto.OrderDTO> com.tony.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-04-05 18:32:22,203 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:32:22,209 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:32:22,210 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:32:22,273 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:32:22,273 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:32:22,339 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:32:22,700 - Registering beans for JMX exposure on startup
+2018-04-05 18:32:22,701 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:32:22,708 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:32:22,722 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:32:22,734 - Using a shared selector for servlet write/read
+2018-04-05 18:32:22,751 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:32:22,754 - Started SellApplication in 9.386 seconds (JVM running for 11.384)
+2018-04-05 18:32:27,364 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:32:27,364 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:32:27,419 - FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+2018-04-05 18:32:27,490 - Request method 'POST' not supported
+2018-04-05 18:32:56,159 - Starting SellApplication on Asus with PID 11688 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:32:56,164 - No active profile set, falling back to default profiles: default
+2018-04-05 18:32:56,525 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b0dcab: startup date [Thu Apr 05 18:32:56 AEST 2018]; root of context hierarchy
+2018-04-05 18:32:59,914 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dcb64ab4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:33:01,009 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:33:01,032 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:33:01,066 - Starting service [Tomcat]
+2018-04-05 18:33:01,066 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:33:01,113 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:33:01,380 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:33:01,381 - Root WebApplicationContext: initialization completed in 4857 ms
+2018-04-05 18:33:01,912 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:33:01,919 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:33:01,920 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:33:01,920 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:33:01,920 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:33:02,369 - HikariPool-1 - Starting...
+2018-04-05 18:33:02,867 - HikariPool-1 - Start completed.
+2018-04-05 18:33:02,956 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:33:03,278 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:33:03,502 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:33:03,504 - HHH000206: hibernate.properties not found
+2018-04-05 18:33:03,636 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:33:04,310 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:33:06,022 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:33:08,684 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b0dcab: startup date [Thu Apr 05 18:32:56 AEST 2018]; root of context hierarchy
+2018-04-05 18:33:08,789 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:33:08,912 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:33:08,914 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:33:08,914 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.tony.viewobject.ResultVO<com.tony.dto.OrderDTO> com.tony.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-04-05 18:33:08,914 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-04-05 18:33:08,916 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:33:08,923 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:33:08,924 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:33:09,057 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:33:09,058 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:33:09,202 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:33:10,070 - Registering beans for JMX exposure on startup
+2018-04-05 18:33:10,072 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:33:10,081 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:33:10,100 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:33:10,120 - Using a shared selector for servlet write/read
+2018-04-05 18:33:10,166 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:33:10,170 - Started SellApplication in 15.545 seconds (JVM running for 20.788)
+2018-04-05 18:33:13,221 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:33:13,222 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:33:13,295 - FrameworkServlet 'dispatcherServlet': initialization completed in 73 ms
+2018-04-05 18:33:24,575 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 18:33:24,845 - [Cancel orders] There is no order exists, orderDTO=OrderDTO(orderId=1522911643222215373, buyerName="May", buyerPhone="18868822111", buyerAddress="Hangzhou", buyerOpenid="ew3euwhd7sjw9diwkq", orderAmount=7.00, orderStatus=2, payStatus=0, createTime=2018-04-05 17:00:43.0, updateTime=2018-04-05 17:00:43.0, orderDetailList=[])
+2018-04-05 18:33:24,895 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.tony.exception.SellException: There is not order detail info found.] with root cause
+com.tony.exception.SellException: There is not order detail info found.
+	at com.tony.service.Impl.OrderServiceImpl.cancel(OrderServiceImpl.java:135)
+	at com.tony.service.Impl.OrderServiceImpl$$FastClassBySpringCGLIB$$eab02f01.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.tony.service.Impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$68115890.cancel(<generated>)
+	at com.tony.controller.BuyerOrderController.cancel(BuyerOrderController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:870)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-04-05 18:34:50,385 - Starting SellApplication on Asus with PID 5712 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 18:34:50,390 - No active profile set, falling back to default profiles: default
+2018-04-05 18:34:50,623 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b0dcab: startup date [Thu Apr 05 18:34:50 AEST 2018]; root of context hierarchy
+2018-04-05 18:34:52,623 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1910447e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 18:34:53,150 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 18:34:53,172 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:34:53,187 - Starting service [Tomcat]
+2018-04-05 18:34:53,187 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 18:34:53,194 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 18:34:53,377 - Initializing Spring embedded WebApplicationContext
+2018-04-05 18:34:53,377 - Root WebApplicationContext: initialization completed in 2754 ms
+2018-04-05 18:34:53,574 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 18:34:53,585 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 18:34:53,586 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 18:34:53,586 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 18:34:53,587 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 18:34:53,837 - HikariPool-1 - Starting...
+2018-04-05 18:34:54,119 - HikariPool-1 - Start completed.
+2018-04-05 18:34:54,186 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:34:54,204 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 18:34:54,574 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 18:34:54,576 - HHH000206: hibernate.properties not found
+2018-04-05 18:34:54,645 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 18:34:54,854 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 18:34:55,815 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 18:34:57,097 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55b0dcab: startup date [Thu Apr 05 18:34:50 AEST 2018]; root of context hierarchy
+2018-04-05 18:34:57,150 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 18:34:57,222 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 18:34:57,224 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 18:34:57,225 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.tony.viewobject.ResultVO<com.tony.dto.OrderDTO> com.tony.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-04-05 18:34:57,225 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-04-05 18:34:57,226 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 18:34:57,231 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 18:34:57,232 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 18:34:57,284 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:34:57,284 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:34:57,353 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 18:34:57,759 - Registering beans for JMX exposure on startup
+2018-04-05 18:34:57,761 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 18:34:57,772 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 18:34:57,790 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 18:34:57,805 - Using a shared selector for servlet write/read
+2018-04-05 18:34:57,825 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 18:34:57,829 - Started SellApplication in 9.003 seconds (JVM running for 10.729)
+2018-04-05 18:35:06,201 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 18:35:06,202 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 18:35:06,289 - FrameworkServlet 'dispatcherServlet': initialization completed in 87 ms
+2018-04-05 18:35:06,471 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-05 19:42:58,228 - Starting SellApplication on Asus with PID 10552 (E:\IdeaProjects\sell\target\classes started by lenovo in E:\IdeaProjects\sell)
+2018-04-05 19:42:58,233 - No active profile set, falling back to default profiles: default
+2018-04-05 19:42:58,624 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@131ef10: startup date [Thu Apr 05 19:42:58 AEST 2018]; root of context hierarchy
+2018-04-05 19:42:59,997 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c81fbfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-05 19:43:00,295 - Tomcat initialized with port(s): 8081 (http)
+2018-04-05 19:43:00,311 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-04-05 19:43:00,321 - Starting service [Tomcat]
+2018-04-05 19:43:00,321 - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 19:43:00,326 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\lenovo\Anaconda3;C:\Users\lenovo\Anaconda3\Scripts;C:\Users\lenovo\Anaconda3\Library\bin;D:\apache-maven-3.3.9\\bin;.]
+2018-04-05 19:43:00,413 - Initializing Spring embedded WebApplicationContext
+2018-04-05 19:43:00,413 - Root WebApplicationContext: initialization completed in 1789 ms
+2018-04-05 19:43:00,541 - Servlet dispatcherServlet mapped to [/]
+2018-04-05 19:43:00,547 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 19:43:00,548 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 19:43:00,548 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 19:43:00,548 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 19:43:00,701 - HikariPool-1 - Starting...
+2018-04-05 19:43:00,886 - HikariPool-1 - Start completed.
+2018-04-05 19:43:00,933 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-05 19:43:01,083 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-05 19:43:01,168 - HHH000412: Hibernate Core {5.2.14.Final}
+2018-04-05 19:43:01,170 - HHH000206: hibernate.properties not found
+2018-04-05 19:43:01,210 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-05 19:43:01,342 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-05 19:43:01,900 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-05 19:43:02,696 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@131ef10: startup date [Thu Apr 05 19:42:58 AEST 2018]; root of context hierarchy
+2018-04-05 19:43:02,735 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-05 19:43:02,775 - Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.tony.viewobject.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.tony.controller.BuyerOrderController.create(com.tony.form.OrderForm,org.springframework.validation.BindingResult)
+2018-04-05 19:43:02,776 - Mapped "{[/buyer/order/list]}" onto public com.tony.viewobject.ResultVO<java.util.List<com.tony.dto.OrderDTO>> com.tony.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+2018-04-05 19:43:02,777 - Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+2018-04-05 19:43:02,777 - Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.tony.viewobject.ResultVO<com.tony.dto.OrderDTO> com.tony.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+2018-04-05 19:43:02,778 - Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.tony.viewobject.ResultVO com.tony.controller.BuyerProductController.list()
+2018-04-05 19:43:02,782 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 19:43:02,783 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 19:43:02,820 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 19:43:02,821 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 19:43:02,859 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 19:43:03,178 - Registering beans for JMX exposure on startup
+2018-04-05 19:43:03,179 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-05 19:43:03,185 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-05 19:43:03,199 - Starting ProtocolHandler ["http-nio-8081"]
+2018-04-05 19:43:03,208 - Using a shared selector for servlet write/read
+2018-04-05 19:43:03,227 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-05 19:43:03,230 - Started SellApplication in 5.669 seconds (JVM running for 6.704)
