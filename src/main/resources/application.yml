@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/sell
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: admin
+    password: 123456
   jpa:
     show-sql: true
     hibernate:
