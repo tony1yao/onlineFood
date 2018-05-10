@@ -60,7 +60,7 @@ public class BuyerOrderController {
             log.error("[Get order list], openid is empty.");
             throw new SellException(ExceptionEnum.PARAM_ERROR);
         }
-        PageRequest pageRequest = new PageRequest(page,size);
+        PageRequest pageRequest =  PageRequest.of(page,size);
         Page<OrderDTO> orderDTOPage = orderService.findList(openid, pageRequest);
         return  ResultVOUtil.success(orderDTOPage.getContent());
     }

@@ -12,4 +12,12 @@ spring:
       ddl-auto: update
   jackson:
     default-property-inclusion: non_null
+  freemarker:
+    cache: true
+    check-template-location: true
+    content-type: text/html
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+    request-context-attribute: req
+
 
